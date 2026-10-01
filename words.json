@@ -1,0 +1,399 @@
+{
+  "version": 1,
+  "nota": "Prototipo: 10 días × 3 palabras. 'verdadera' parafrasea el DLE de la RAE; 'falsas' son inventadas. Las entradas con \"verificar\": true tienen algún dato (normalmente de la curiosidad) que conviene revisar; el motivo está en 'nota_verificar'.",
+  "dias": [
+    {
+      "palabras": [
+        {
+          "palabra": "zascandil",
+          "categoria": "sustantivo masculino, coloquial",
+          "verdadera": "Hombre ligero, bullicioso y enredador, de poca formalidad y que se mete en todo.",
+          "falsas": [
+            "Candil pequeño de aceite que se colgaba a la puerta de las tabernas por la noche.",
+            "Golpe seco que se da con la mano abierta en la nuca, por sorpresa y en broma."
+          ],
+          "curiosidad": "La RAE la explica como la unión de la interjección «zas» y «candil»: alguien tan inquieto y voluble como la llama de un candil que se agita de golpe.",
+          "verificar": true,
+          "nota_verificar": "Confirmar que el DLE da la etimología «de zas y candil». La imagen de la llama es interpretación propia."
+        },
+        {
+          "palabra": "cotufa",
+          "categoria": "sustantivo femenino",
+          "verdadera": "Golosina o capricho delicado; en Venezuela, palomita de maíz.",
+          "falsas": [
+            "Gorro de lana con orejeras que usaban los pastores en el invierno de la meseta.",
+            "Rabieta corta y ruidosa, propia de los niños cuando no se les da un capricho."
+          ],
+          "curiosidad": "«Pedir cotufas en el golfo» es pedir imposibles, y la expresión aparece en el Quijote. La RAE recoge además que la cotufa es el tubérculo de la aguaturma y, en algunos lugares, la chufa.",
+          "verificar": true,
+          "nota_verificar": "Confirmar que «pedir cotufas en el golfo» aparece en el Quijote (creo que en boca de Sancho o Don Quijote, parte I)."
+        },
+        {
+          "palabra": "trampantojo",
+          "categoria": "sustantivo masculino",
+          "verdadera": "Engaño o ilusión con que se hace a alguien ver una cosa distinta de la que realmente hay.",
+          "falsas": [
+            "Tropiezo que se da al pisar en falso un escalón cuando se baja a oscuras.",
+            "Persona que finge estar distraída para escuchar a escondidas las conversaciones ajenas."
+          ],
+          "curiosidad": "Viene de «trampa ante ojo». En pintura se llama así a las obras que imitan la realidad hasta burlar la vista: ventanas, cornisas o cielos pintados en muros y bóvedas barrocas.",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "palabras": [
+        {
+          "palabra": "batiburrillo",
+          "categoria": "sustantivo masculino",
+          "verdadera": "Mezcla desordenada de cosas que no tienen relación entre sí; revoltijo.",
+          "falsas": [
+            "Manteca batida con miel que se untaba en el pan de la merienda de los niños.",
+            "Tambor pequeño que tocaban los mozos para acompañar las rondas de fiestas."
+          ],
+          "curiosidad": "Es variante de «baturrillo», que la RAE define como mezcla de cosas que no casan, sobre todo en la comida. De la cazuela pasó a cualquier mezcolanza: de ideas, de objetos o de estilos.",
+          "verificar": false
+        },
+        {
+          "palabra": "alifafe",
+          "categoria": "sustantivo masculino, coloquial",
+          "verdadera": "Achaque o dolencia, por lo general leve y habitual.",
+          "falsas": [
+            "Adorno de flecos dorados que se cosía en el borde de cortinas y doseles.",
+            "Bandeja de cobre en la que se servían los dulces en las bodas moriscas."
+          ],
+          "curiosidad": "Antes de ser cosa de abuelos fue término de veterinaria: un tumor blando que les sale a las caballerías en el corvejón. Llegó al castellano desde el árabe hispánico.",
+          "verificar": true,
+          "nota_verificar": "Confirmar la acepción veterinaria (tumor en el corvejón) y el origen árabe hispánico en el DLE."
+        },
+        {
+          "palabra": "correveidile",
+          "categoria": "sustantivo común en cuanto al género",
+          "verdadera": "Persona que lleva y trae chismes y cuentos de unos a otros.",
+          "falsas": [
+            "Mensajero a pie que llevaba cartas urgentes entre dos pueblos vecinos.",
+            "Juego infantil en que se persigue a quien lleva un pañuelo en el tobillo."
+          ],
+          "curiosidad": "Es una frase hecha palabra: «corre, ve y dile». En los mentideros, el correveidile era quien hacía circular el rumor de corrillo en corrillo. La RAE admite también «correvedile».",
+          "verificar": true,
+          "nota_verificar": "Confirmar que el DLE recoge la variante «correvedile»."
+        }
+      ]
+    },
+    {
+      "palabras": [
+        {
+          "palabra": "tiquismiquis",
+          "categoria": "sustantivo masculino plural / sustantivo común",
+          "verdadera": "Reparos o escrúpulos de muy poca importancia; también, persona que los pone por todo.",
+          "falsas": [
+            "Pellizcos cariñosos que se dan en las mejillas a los niños de pecho.",
+            "Hilillos sueltos que quedan colgando del dobladillo de una prenda nueva."
+          ],
+          "curiosidad": "Procede de la expresión latina «tibi, mihi» («para ti, para mí»), deformada en boca de quienes no sabían latín: una burla de las discusiones remilgadas sobre quién se queda qué.",
+          "verificar": true,
+          "nota_verificar": "Confirmar la etimología «tibi, mihi» en el DLE. La explicación de la burla es interpretación habitual, no de la RAE."
+        },
+        {
+          "palabra": "trapisonda",
+          "categoria": "sustantivo femenino, coloquial",
+          "verdadera": "Alboroto o riña con voces y golpes; también, enredo o embrollo.",
+          "falsas": [
+            "Puerta pequeña abierta en el suelo para bajar a la bodega o al sótano.",
+            "Red de pesca redonda que se lanzaba a mano desde la orilla del río."
+          ],
+          "curiosidad": "Se relaciona con Trebisonda, que en castellano antiguo se llamó Trapisonda: un imperio del mar Negro muy citado en los libros de caballerías. El Quijote menciona al emperador de Trapisonda, y «armar la de Trapisonda» es montar un lío tremendo.",
+          "verificar": true,
+          "nota_verificar": "Confirmar la relación etimológica con Trebisonda y la mención en el Quijote."
+        },
+        {
+          "palabra": "faltriquera",
+          "categoria": "sustantivo femenino",
+          "verdadera": "Bolsillo de una prenda; antiguamente, bolsa que las mujeres se ataban a la cintura y llevaban bajo la falda.",
+          "falsas": [
+            "Mujer que iba de casa en casa remendando ropa a cambio de la comida del día.",
+            "Cinta de seda con que se sujetaba el moño alto en los días de fiesta."
+          ],
+          "curiosidad": "En el Siglo de Oro la ropa apenas tenía bolsillos cosidos: monedas, llaves, pañuelos y billetes de amor viajaban en la faltriquera, escondida bajo las sayas.",
+          "verificar": true,
+          "nota_verificar": "La afirmación histórica sobre la ausencia de bolsillos cosidos es general; revisar si se quiere mantener."
+        }
+      ]
+    },
+    {
+      "palabras": [
+        {
+          "palabra": "galimatías",
+          "categoria": "sustantivo masculino",
+          "verdadera": "Lenguaje oscuro y enrevesado, por lo mal construido de las frases o por el desorden de las ideas.",
+          "falsas": [
+            "Gallo de pelea criado y adiestrado para los desafíos de las ferias de ganado.",
+            "Tela basta de lana gruesa con la que se hacían las mantas de caballería."
+          ],
+          "curiosidad": "Llegó del francés «galimatias». Una anécdota muy repetida, aunque dudosa, cuenta que un abogado que pleiteaba en latín por el gallo de un tal Matías se trabó y dijo «galli Matthias» en lugar de «gallus Matthiae».",
+          "verificar": true,
+          "nota_verificar": "La anécdota del abogado es popular y se presenta como dudosa; confirmar el origen francés en el DLE."
+        },
+        {
+          "palabra": "cantamañanas",
+          "categoria": "sustantivo común, coloquial",
+          "verdadera": "Persona informal, fantasiosa e irresponsable, a la que no conviene dar crédito.",
+          "falsas": [
+            "Gallo que canta mucho antes del alba y despierta a todo el vecindario.",
+            "Coplas que los mozos cantaban al amanecer bajo la ventana de la novia."
+          ],
+          "curiosidad": "Une «cantar» y «mañanas»: según la interpretación más extendida, es el que canta promesas para un mañana que nunca llega. Justo el tipo de personaje que prosperaba en un mentidero.",
+          "verificar": true,
+          "nota_verificar": "La explicación de la formación es interpretación popular; el DLE no la desarrolla."
+        },
+        {
+          "palabra": "albricias",
+          "categoria": "sustantivo femenino plural / interjección",
+          "verdadera": "Regalo que se da a quien trae una buena noticia; también, exclamación de alegría.",
+          "falsas": [
+            "Migas de pan duro que se echaban a las palomas en la plaza los domingos.",
+            "Hierbas aromáticas que se quemaban en casa para alejar el mal de ojo."
+          ],
+          "curiosidad": "Viene del árabe hispánico «albúšra», «buena noticia». Quien llegaba con nuevas de una victoria, una boda o un nacimiento esperaba su recompensa: pedir albricias era casi un derecho.",
+          "verificar": true,
+          "nota_verificar": "Confirmar la forma árabe exacta que da el DLE."
+        }
+      ]
+    },
+    {
+      "palabras": [
+        {
+          "palabra": "mequetrefe",
+          "categoria": "sustantivo común, coloquial",
+          "verdadera": "Persona entrometida y alborotadora que sirve para poco.",
+          "falsas": [
+            "Dulce de almendra y miel típico de las ferias de los pueblos de Castilla.",
+            "Cuchillo pequeño de hoja curva que se usaba para podar las vides."
+          ],
+          "curiosidad": "Su origen es discutido; se ha propuesto el árabe «mutrif», «petulante». Ya el teatro del Siglo de Oro lo usaba para retratar a jóvenes presumidos e insustanciales.",
+          "verificar": true,
+          "nota_verificar": "Etimología árabe propuesta y uso en el teatro áureo: revisar."
+        },
+        {
+          "palabra": "chiribitil",
+          "categoria": "sustantivo masculino",
+          "verdadera": "Rincón o escondrijo bajo y estrecho; también, cuarto muy pequeño.",
+          "falsas": [
+            "Chispa que salta de la leña cuando arde en la chimenea o en el hogar.",
+            "Pájaro pequeño de canto agudo que anida bajo las tejas de las casas."
+          ],
+          "curiosidad": "No hay que confundirlo con las «chiribitas», las chispas que uno ve tras un golpe o cuando le hacen chiribitas los ojos. El chiribitil es más bien el cuartucho de los trastos, el desván diminuto de las casas viejas.",
+          "verificar": false
+        },
+        {
+          "palabra": "zarabanda",
+          "categoria": "sustantivo femenino",
+          "verdadera": "Danza popular de los siglos XVI y XVII, de movimientos atrevidos; también, jaleo o bulla.",
+          "falsas": [
+            "Faja ancha de lana que los arrieros se enrollaban varias veces a la cintura.",
+            "Cesta de mimbre con dos asas en la que se llevaban los panes al horno."
+          ],
+          "curiosidad": "Los moralistas la censuraron tanto que llegó a prohibirse en Castilla a finales del XVI. Paradójicamente, en el resto de Europa se convirtió en una danza lenta y solemne: Bach y Händel compusieron zarabandas.",
+          "verificar": true,
+          "nota_verificar": "Confirmar la fecha aproximada de la prohibición (se suele citar 1583)."
+        }
+      ]
+    },
+    {
+      "palabras": [
+        {
+          "palabra": "papanatas",
+          "categoria": "sustantivo común, coloquial",
+          "verdadera": "Persona simple y crédula, demasiado fácil de engañar.",
+          "falsas": [
+            "Natillas espesas con pan mojado que se daban a los enfermos convalecientes.",
+            "Ayudante de cocina encargado de espumar los pucheros en los conventos."
+          ],
+          "curiosidad": "La RAE la forma con «papar» (comer cosas blandas sin masticar) y «natas»: el que se lo traga todo. En un mentidero, el papanatas era el público perfecto para cualquier bulo.",
+          "verificar": false
+        },
+        {
+          "palabra": "gatuperio",
+          "categoria": "sustantivo masculino",
+          "verdadera": "Mezcla de cosas que no casan y da un resultado desagradable; también, enredo o intriga oculta.",
+          "falsas": [
+            "Escalera de mano muy estrecha por la que se subía al palomar o al pajar.",
+            "Maullido lastimero de los gatos en las noches de enero sobre los tejados."
+          ],
+          "curiosidad": "Se cree formada a partir de «gato» con una terminación burlesca. Con el tiempo pasó de la cocina a la política: un gatuperio es también un chanchullo de despacho.",
+          "verificar": true,
+          "nota_verificar": "Etimología a partir de «gato» no confirmada; revisar en el DLE."
+        },
+        {
+          "palabra": "sotabanco",
+          "categoria": "sustantivo masculino",
+          "verdadera": "Piso habitable construido por encima de la cornisa general de un edificio; ático o buhardilla.",
+          "falsas": [
+            "Asiento bajo y sin respaldo que se colocaba junto al brasero en invierno.",
+            "Empleado encargado de custodiar el dinero en las antiguas casas de cambio."
+          ],
+          "curiosidad": "En el Madrid del siglo XIX, los sotabancos eran las viviendas más baratas: allí malvivían estudiantes, costureras y poetas sin blanca. En arquitectura designa también el cuerpo que se pone sobre la cornisa para levantar el arranque de los arcos.",
+          "verificar": true,
+          "nota_verificar": "La nota sobre el Madrid del XIX es general; confirmar la acepción arquitectónica en el DLE."
+        }
+      ]
+    },
+    {
+      "palabras": [
+        {
+          "palabra": "jolgorio",
+          "categoria": "sustantivo masculino, coloquial",
+          "verdadera": "Fiesta o diversión bulliciosa, llena de alegría.",
+          "falsas": [
+            "Hoyo poco profundo en el que se asaban castañas en el campo.",
+            "Jilguero criado en jaula para los concursos de canto de los pueblos."
+          ],
+          "curiosidad": "Es la misma palabra que «holgorio», de «holgar» (divertirse). La h inicial se pronunciaba aspirada, como aún se oye en zonas de Andalucía o Extremadura, y acabó escribiéndose con j.",
+          "verificar": false
+        },
+        {
+          "palabra": "pisaverde",
+          "categoria": "sustantivo masculino, coloquial",
+          "verdadera": "Hombre presumido que no se ocupa más que de acicalarse, pasear y galantear.",
+          "falsas": [
+            "Jardinero encargado de cuidar y recortar el césped de los jardines reales.",
+            "Tributo que pagaban los pastores por dejar pastar su rebaño en prado ajeno."
+          ],
+          "curiosidad": "Se suele explicar por su andar remilgado, de puntillas, como quien pisa la hierba con miedo a mancharse. Fue blanco de burlas en la literatura de los siglos XVII y XVIII.",
+          "verificar": true,
+          "nota_verificar": "La explicación del andar de puntillas es popular; no está confirmada por la RAE."
+        },
+        {
+          "palabra": "cachivache",
+          "categoria": "sustantivo masculino, despectivo",
+          "verdadera": "Trasto, utensilio o cosa inútil, a menudo vieja, rota o arrinconada.",
+          "falsas": [
+            "Cría del jabalí durante sus primeros meses, cuando aún tiene rayas.",
+            "Vaso de cuerno de buey con el que bebían vino los pastores."
+          ],
+          "curiosidad": "Su origen es incierto. La RAE recoge además un sentido poco conocido: hombre ridículo, embustero e inútil. En buena parte de América se usa para cualquier aparato o chisme.",
+          "verificar": true,
+          "nota_verificar": "Confirmar la acepción «hombre ridículo, embustero e inútil» y el uso americano."
+        }
+      ]
+    },
+    {
+      "palabras": [
+        {
+          "palabra": "guirigay",
+          "categoria": "sustantivo masculino",
+          "verdadera": "Griterío y confusión de muchas voces; también, lenguaje oscuro y difícil de entender.",
+          "falsas": [
+            "Pájaro de plumas muy vistosas traído de las Indias, parecido al loro.",
+            "Juego de naipes en que gana quien reúne antes todas las figuras."
+          ],
+          "curiosidad": "Se considera de origen onomatopéyico: imita el barullo de muchas voces a la vez. Durante siglos sirvió para burlarse de las lenguas que no se entendían.",
+          "verificar": true,
+          "nota_verificar": "Confirmar el origen onomatopéyico en el DLE."
+        },
+        {
+          "palabra": "birria",
+          "categoria": "sustantivo femenino",
+          "verdadera": "Persona o cosa de poco valor, ridícula o mal hecha; en México, guiso picante de carne.",
+          "falsas": [
+            "Bota de vino pequeña que se llevaba colgada al hombro en las romerías.",
+            "Llovizna fina y fría que cae en invierno al amanecer en el norte."
+          ],
+          "curiosidad": "Un nombre, dos destinos: en España, decir que algo es «una birria» es despreciarlo; en Jalisco, la birria es un guiso tradicional de chivo o res tan apreciado que se ha hecho famoso en medio mundo.",
+          "verificar": false
+        },
+        {
+          "palabra": "morrocotudo",
+          "categoria": "adjetivo, coloquial",
+          "verdadera": "De mucha importancia, gravedad o dificultad; tremendo.",
+          "falsas": [
+            "Dicho de una persona: de labios gruesos y gesto enfurruñado.",
+            "Dicho del pan: duro y seco por llevar varios días hecho."
+          ],
+          "curiosidad": "Se suele relacionar con la «morrocota», nombre que se daba en Colombia y Venezuela a una antigua moneda de oro de gran tamaño y valor.",
+          "verificar": true,
+          "nota_verificar": "Relación con «morrocota» no confirmada como etimología oficial."
+        }
+      ]
+    },
+    {
+      "palabras": [
+        {
+          "palabra": "gaznápiro",
+          "categoria": "adjetivo / sustantivo",
+          "verdadera": "Palurdo, simplón y torpe, que se queda embobado con cualquier cosa.",
+          "falsas": [
+            "Buche o garganta de las aves de corral, que se guisaba con arroz.",
+            "Azada de pico curvo con la que se arrancaban las raíces en la huerta."
+          ],
+          "curiosidad": "Su origen es dudoso; suele vincularse con «gaznate», porque el gaznápiro es el que se queda boquiabierto, enseñando la garganta ante cualquier novedad.",
+          "verificar": true,
+          "nota_verificar": "Relación con «gaznate» es una hipótesis; revisar."
+        },
+        {
+          "palabra": "cuchipanda",
+          "categoria": "sustantivo femenino, coloquial",
+          "verdadera": "Comida que varias personas hacen juntas, con alegría y regocijo.",
+          "falsas": [
+            "Navaja pequeña de punta redonda que se usaba para untar y pelar fruta.",
+            "Cerda joven que todavía no ha tenido su primera camada."
+          ],
+          "curiosidad": "Una cuchipanda es más que comer: es comer en buena compañía, sin prisa y con jarana. Su formación parece burlesca, quizá a partir de voces familiares de la comida y la juerga.",
+          "verificar": true,
+          "nota_verificar": "Origen no documentado; la frase sobre su formación es especulativa."
+        },
+        {
+          "palabra": "lechuguino",
+          "categoria": "sustantivo masculino",
+          "verdadera": "Joven que presume de elegante y sigue la moda al pie de la letra; también, muchacho que se mete a galantear.",
+          "falsas": [
+            "Vendedor ambulante de hortalizas en los mercados del Madrid antiguo.",
+            "Ternero que todavía se alimenta solo de la leche de su madre."
+          ],
+          "curiosidad": "Su primer significado es la lechuga pequeña antes de ser trasplantada. De ahí, el joven tierno y sin hacer que se da aires de hombre de mundo.",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "palabras": [
+        {
+          "palabra": "barahúnda",
+          "categoria": "sustantivo femenino",
+          "verdadera": "Ruido y confusión grandes.",
+          "falsas": [
+            "Bandada de aves que vuela baja antes de una tormenta.",
+            "Cuerda gruesa con que se amarran las barcas al muelle."
+          ],
+          "curiosidad": "También se escribe «baraúnda». Su origen es incierto: se ha relacionado con voces hebreas o árabes, pero ninguna explicación convence del todo.",
+          "verificar": true,
+          "nota_verificar": "Confirmar la grafía alternativa y que el DLE da el origen como incierto."
+        },
+        {
+          "palabra": "gorigori",
+          "categoria": "sustantivo masculino, coloquial",
+          "verdadera": "Nombre burlesco del canto lúgubre que acompaña a los entierros.",
+          "falsas": [
+            "Gorrión que anida en los campanarios y se alimenta de migas.",
+            "Papilla de harina y leche que se da a los niños de pecho."
+          ],
+          "curiosidad": "Imita, en son de burla, el latín que salmodiaban los clérigos en los funerales. «Cantarle a alguien el gorigori» es darlo ya por muerto.",
+          "verificar": true,
+          "nota_verificar": "Origen onomatopéyico y la expresión «cantar el gorigori»: revisar."
+        },
+        {
+          "palabra": "mentidero",
+          "categoria": "sustantivo masculino, coloquial",
+          "verdadera": "Lugar donde se junta la gente ociosa para conversar.",
+          "falsas": [
+            "Libro en que los alguaciles anotaban las declaraciones falsas.",
+            "Persona que se gana la vida inventando coplas y noticias."
+          ],
+          "curiosidad": "El Madrid del Siglo de Oro tuvo tres célebres: las gradas de San Felipe, en la calle Mayor; las losas de Palacio; y el de representantes, en la calle del León, frecuentado por cómicos y escritores. De ellos salían noticias… y bulos.",
+          "verificar": true,
+          "nota_verificar": "Confirmar la ubicación de los tres mentideros madrileños."
+        }
+      ]
+    }
+  ]
+}
