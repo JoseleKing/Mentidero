@@ -1,20 +1,19 @@
 {
   "version": 1,
-  "nota": "Prototipo: 10 días × 3 palabras. 'verdadera' parafrasea el DLE de la RAE; 'falsas' son inventadas. Las entradas con \"verificar\": true tienen algún dato (normalmente de la curiosidad) que conviene revisar; el motivo está en 'nota_verificar'.",
+  "nota": "Prototipo: 10 días × 3 palabras. 'verdadera' parafrasea el DLE de la RAE; 'falsas' son inventadas. Las entradas con \"verificar\": true tienen algún dato que conviene revisar; el motivo está en 'nota_verificar'.",
   "dias": [
     {
       "palabras": [
         {
           "palabra": "zascandil",
           "categoria": "sustantivo masculino, coloquial",
-          "verdadera": "Hombre ligero, bullicioso y enredador, de poca formalidad y que se mete en todo.",
+          "verdadera": "Hombre ligero y enredador, de poco fundamento y digno de poco aprecio.",
           "falsas": [
             "Candil pequeño de aceite que se colgaba a la puerta de las tabernas por la noche.",
-            "Golpe seco que se da con la mano abierta en la nuca, por sorpresa y en broma."
+            "Tenacillas con que se despabilaba la mecha de los candiles y velones."
           ],
-          "curiosidad": "La RAE la explica como la unión de la interjección «zas» y «candil»: alguien tan inquieto y voluble como la llama de un candil que se agita de golpe.",
-          "verificar": true,
-          "nota_verificar": "Confirmar que el DLE da la etimología «de zas y candil». La imagen de la llama es interpretación propia."
+          "curiosidad": "La RAE guarda dos sentidos antiguos ya en desuso: el hombre astuto y estafador, y un golpe o acción repentina e inesperada. De la palabra salió también el verbo «zascandilear»: andar como un zascandil.",
+          "verificar": false
         },
         {
           "palabra": "cotufa",
@@ -24,9 +23,8 @@
             "Gorro de lana con orejeras que usaban los pastores en el invierno de la meseta.",
             "Rabieta corta y ruidosa, propia de los niños cuando no se les da un capricho."
           ],
-          "curiosidad": "«Pedir cotufas en el golfo» es pedir imposibles, y la expresión aparece en el Quijote. La RAE recoge además que la cotufa es el tubérculo de la aguaturma y, en algunos lugares, la chufa.",
-          "verificar": true,
-          "nota_verificar": "Confirmar que «pedir cotufas en el golfo» aparece en el Quijote (creo que en boca de Sancho o Don Quijote, parte I)."
+          "curiosidad": "«Pedir cotufas en el golfo» es pedir imposibles: se lo dice Sancho a don Quijote en el capítulo 30 de la primera parte. Hoy llaman cotufas a las palomitas en Venezuela y en buena parte de Canarias.",
+          "verificar": false
         },
         {
           "palabra": "trampantojo",
@@ -62,9 +60,8 @@
             "Adorno de flecos dorados que se cosía en el borde de cortinas y doseles.",
             "Bandeja de cobre en la que se servían los dulces en las bodas moriscas."
           ],
-          "curiosidad": "Antes de ser cosa de abuelos fue término de veterinaria: un tumor blando que les sale a las caballerías en el corvejón. Llegó al castellano desde el árabe hispánico.",
-          "verificar": true,
-          "nota_verificar": "Confirmar la acepción veterinaria (tumor en el corvejón) y el origen árabe hispánico en el DLE."
+          "curiosidad": "Antes de ser cosa de abuelos fue término de veterinaria: un tumor sinovial que les sale a las caballerías en los corvejones por exceso de trabajo. Llegó del árabe hispánico «al'ifáṣ».",
+          "verificar": false
         },
         {
           "palabra": "correveidile",
@@ -74,9 +71,8 @@
             "Mensajero a pie que llevaba cartas urgentes entre dos pueblos vecinos.",
             "Juego infantil en que se persigue a quien lleva un pañuelo en el tobillo."
           ],
-          "curiosidad": "Es una frase hecha palabra: «corre, ve y dile». En los mentideros, el correveidile era quien hacía circular el rumor de corrillo en corrillo. La RAE admite también «correvedile».",
-          "verificar": true,
-          "nota_verificar": "Confirmar que el DLE recoge la variante «correvedile»."
+          "curiosidad": "Es una frase hecha palabra: «corre, ve y dile». En los mentideros, el correveidile era quien hacía circular el rumor de corrillo en corrillo. Existe también la variante «correvedile», hoy muy poco usada.",
+          "verificar": false
         }
       ]
     },
@@ -90,9 +86,8 @@
             "Pellizcos cariñosos que se dan en las mejillas a los niños de pecho.",
             "Hilillos sueltos que quedan colgando del dobladillo de una prenda nueva."
           ],
-          "curiosidad": "Procede de la expresión latina «tibi, mihi» («para ti, para mí»), deformada en boca de quienes no sabían latín: una burla de las discusiones remilgadas sobre quién se queda qué.",
-          "verificar": true,
-          "nota_verificar": "Confirmar la etimología «tibi, mihi» en el DLE. La explicación de la burla es interpretación habitual, no de la RAE."
+          "curiosidad": "Viene de «tichi, michi», latín macarrónico por «tibi, mihi» («para ti, para mí»). Se aplicaba a quienes lo repartían todo con escrúpulos excesivos.",
+          "verificar": false
         },
         {
           "palabra": "trapisonda",
@@ -102,9 +97,8 @@
             "Puerta pequeña abierta en el suelo para bajar a la bodega o al sótano.",
             "Red de pesca redonda que se lanzaba a mano desde la orilla del río."
           ],
-          "curiosidad": "Se relaciona con Trebisonda, que en castellano antiguo se llamó Trapisonda: un imperio del mar Negro muy citado en los libros de caballerías. El Quijote menciona al emperador de Trapisonda, y «armar la de Trapisonda» es montar un lío tremendo.",
-          "verificar": true,
-          "nota_verificar": "Confirmar la relación etimológica con Trebisonda y la mención en el Quijote."
+          "curiosidad": "Suele relacionarse con Trapisonda, nombre antiguo de Trebisonda, un imperio del mar Negro muy presente en los libros de caballerías. Ya en el primer capítulo del Quijote, el hidalgo se imagina coronado «por lo menos del imperio de Trapisonda».",
+          "verificar": false
         },
         {
           "palabra": "faltriquera",
@@ -114,9 +108,8 @@
             "Mujer que iba de casa en casa remendando ropa a cambio de la comida del día.",
             "Cinta de seda con que se sujetaba el moño alto en los días de fiesta."
           ],
-          "curiosidad": "En el Siglo de Oro la ropa apenas tenía bolsillos cosidos: monedas, llaves, pañuelos y billetes de amor viajaban en la faltriquera, escondida bajo las sayas.",
-          "verificar": true,
-          "nota_verificar": "La afirmación histórica sobre la ausencia de bolsillos cosidos es general; revisar si se quiere mantener."
+          "curiosidad": "Antes de que cada prenda tuviera su bolsillo, muchas mujeres llevaban una faltriquera atada a la cintura y escondida bajo la falda, con monedas, llaves o pañuelos. Los diccionarios antiguos recogen también «faldiquera» y «faldisquera».",
+          "verificar": false
         }
       ]
     },
@@ -130,9 +123,8 @@
             "Gallo de pelea criado y adiestrado para los desafíos de las ferias de ganado.",
             "Tela basta de lana gruesa con la que se hacían las mantas de caballería."
           ],
-          "curiosidad": "Llegó del francés «galimatias». Una anécdota muy repetida, aunque dudosa, cuenta que un abogado que pleiteaba en latín por el gallo de un tal Matías se trabó y dijo «galli Matthias» en lugar de «gallus Matthiae».",
-          "verificar": true,
-          "nota_verificar": "La anécdota del abogado es popular y se presenta como dudosa; confirmar el origen francés en el DLE."
+          "curiosidad": "Llegó del francés «galimatias». Se cuenta que un abogado que pleiteaba en latín por el gallo de un tal Matías se trabó y dijo «galli Matthias» en lugar de «gallus Matthiae», pero ya el lexicógrafo Littré sospechaba que la anécdota se inventó para explicar la palabra.",
+          "verificar": false
         },
         {
           "palabra": "cantamañanas",
@@ -142,9 +134,8 @@
             "Gallo que canta mucho antes del alba y despierta a todo el vecindario.",
             "Coplas que los mozos cantaban al amanecer bajo la ventana de la novia."
           ],
-          "curiosidad": "Une «cantar» y «mañanas»: según la interpretación más extendida, es el que canta promesas para un mañana que nunca llega. Justo el tipo de personaje que prosperaba en un mentidero.",
-          "verificar": true,
-          "nota_verificar": "La explicación de la formación es interpretación popular; el DLE no la desarrolla."
+          "curiosidad": "Une «cantar» y «mañanas». Según una explicación popular, nunca confirmada, viene de quien a todo respondía «mañana»: el que canta promesas para un día que nunca llega.",
+          "verificar": false
         },
         {
           "palabra": "albricias",
@@ -155,8 +146,7 @@
             "Hierbas aromáticas que se quemaban en casa para alejar el mal de ojo."
           ],
           "curiosidad": "Viene del árabe hispánico «albúšra», «buena noticia». Quien llegaba con nuevas de una victoria, una boda o un nacimiento esperaba su recompensa: pedir albricias era casi un derecho.",
-          "verificar": true,
-          "nota_verificar": "Confirmar la forma árabe exacta que da el DLE."
+          "verificar": false
         }
       ]
     },
@@ -170,9 +160,8 @@
             "Dulce de almendra y miel típico de las ferias de los pueblos de Castilla.",
             "Cuchillo pequeño de hoja curva que se usaba para podar las vides."
           ],
-          "curiosidad": "Su origen es discutido; se ha propuesto el árabe «mutrif», «petulante». Ya el teatro del Siglo de Oro lo usaba para retratar a jóvenes presumidos e insustanciales.",
-          "verificar": true,
-          "nota_verificar": "Etimología árabe propuesta y uso en el teatro áureo: revisar."
+          "curiosidad": "La RAE la hace venir del árabe hispánico «muḫaṭríf», es decir, «arrogante». Otras explicaciones menos aceptadas la relacionan con voces inglesas o francesas.",
+          "verificar": false
         },
         {
           "palabra": "chiribitil",
@@ -193,9 +182,8 @@
             "Faja ancha de lana que los arrieros se enrollaban varias veces a la cintura.",
             "Cesta de mimbre con dos asas en la que se llevaban los panes al horno."
           ],
-          "curiosidad": "Los moralistas la censuraron tanto que llegó a prohibirse en Castilla a finales del XVI. Paradójicamente, en el resto de Europa se convirtió en una danza lenta y solemne: Bach y Händel compusieron zarabandas.",
-          "verificar": true,
-          "nota_verificar": "Confirmar la fecha aproximada de la prohibición (se suele citar 1583)."
+          "curiosidad": "Los moralistas la atacaron tanto que en 1583 la Sala de Alcaldes de Madrid la prohibió con penas de azotes. Paradójicamente, en el resto de Europa se convirtió en una danza lenta y solemne: Bach y Händel compusieron zarabandas.",
+          "verificar": false
         }
       ]
     },
@@ -220,9 +208,8 @@
             "Escalera de mano muy estrecha por la que se subía al palomar o al pajar.",
             "Maullido lastimero de los gatos en las noches de enero sobre los tejados."
           ],
-          "curiosidad": "Se cree formada a partir de «gato» con una terminación burlesca. Con el tiempo pasó de la cocina a la política: un gatuperio es también un chanchullo de despacho.",
-          "verificar": true,
-          "nota_verificar": "Etimología a partir de «gato» no confirmada; revisar en el DLE."
+          "curiosidad": "Joan Coromines la explicó como una deformación burlesca de «vituperio», con un guiño a «gato». De la cocina pasó a la política: un gatuperio es también un chanchullo de despacho.",
+          "verificar": false
         },
         {
           "palabra": "sotabanco",
@@ -232,9 +219,8 @@
             "Asiento bajo y sin respaldo que se colocaba junto al brasero en invierno.",
             "Empleado encargado de custodiar el dinero en las antiguas casas de cambio."
           ],
-          "curiosidad": "En el Madrid del siglo XIX, los sotabancos eran las viviendas más baratas: allí malvivían estudiantes, costureras y poetas sin blanca. En arquitectura designa también el cuerpo que se pone sobre la cornisa para levantar el arranque de los arcos.",
-          "verificar": true,
-          "nota_verificar": "La nota sobre el Madrid del XIX es general; confirmar la acepción arquitectónica en el DLE."
+          "curiosidad": "En el Madrid de finales del XIX, un mismo edificio reunía a todas las clases: los ricos en el piso principal y las familias obreras en buhardillas y sotabancos, a veces seis personas en 40 metros cuadrados.",
+          "verificar": false
         }
       ]
     },
@@ -259,9 +245,8 @@
             "Jardinero encargado de cuidar y recortar el césped de los jardines reales.",
             "Tributo que pagaban los pastores por dejar pastar su rebaño en prado ajeno."
           ],
-          "curiosidad": "Se suele explicar por su andar remilgado, de puntillas, como quien pisa la hierba con miedo a mancharse. Fue blanco de burlas en la literatura de los siglos XVII y XVIII.",
-          "verificar": true,
-          "nota_verificar": "La explicación del andar de puntillas es popular; no está confirmada por la RAE."
+          "curiosidad": "Es un compuesto de «pisar» y «verde». Pertenece a la nutrida familia de nombres burlones para el joven presumido, junto a «petimetre» o «lechuguino», que te espera más adelante.",
+          "verificar": false
         },
         {
           "palabra": "cachivache",
@@ -271,9 +256,8 @@
             "Cría del jabalí durante sus primeros meses, cuando aún tiene rayas.",
             "Vaso de cuerno de buey con el que bebían vino los pastores."
           ],
-          "curiosidad": "Su origen es incierto. La RAE recoge además un sentido poco conocido: hombre ridículo, embustero e inútil. En buena parte de América se usa para cualquier aparato o chisme.",
-          "verificar": true,
-          "nota_verificar": "Confirmar la acepción «hombre ridículo, embustero e inútil» y el uso americano."
+          "curiosidad": "Ya en 1611 Covarrubias los describía como trastos viejos y quebrados arrinconados en las casas, y explicaba la palabra como «cachos y vasos»: vasijas sin asa ni pico. La RAE recoge además un sentido poco conocido: hombre ridículo, embustero e inútil.",
+          "verificar": false
         }
       ]
     },
@@ -287,9 +271,8 @@
             "Pájaro de plumas muy vistosas traído de las Indias, parecido al loro.",
             "Juego de naipes en que gana quien reúne antes todas las figuras."
           ],
-          "curiosidad": "Se considera de origen onomatopéyico: imita el barullo de muchas voces a la vez. Durante siglos sirvió para burlarse de las lenguas que no se entendían.",
-          "verificar": true,
-          "nota_verificar": "Confirmar el origen onomatopéyico en el DLE."
+          "curiosidad": "Coromines la documenta desde 1632 y la considera onomatopéyica, como el catalán «guirigall»: imita el barullo de muchas voces a la vez. Hay quien cree que influyó en «guiri», el extranjero al que no se le entiende.",
+          "verificar": false
         },
         {
           "palabra": "birria",
@@ -310,9 +293,8 @@
             "Dicho de una persona: de labios gruesos y gesto enfurruñado.",
             "Dicho del pan: duro y seco por llevar varios días hecho."
           ],
-          "curiosidad": "Se suele relacionar con la «morrocota», nombre que se daba en Colombia y Venezuela a una antigua moneda de oro de gran tamaño y valor.",
-          "verificar": true,
-          "nota_verificar": "Relación con «morrocota» no confirmada como etimología oficial."
+          "curiosidad": "Su origen es desconocido. Aparece por primera vez en 1836, en un periódico de Madrid. Se ha relacionado con la «morrocota», moneda de oro de Colombia y Venezuela, pero esa palabra no se documenta hasta casi treinta años después.",
+          "verificar": false
         }
       ]
     },
@@ -326,9 +308,8 @@
             "Buche o garganta de las aves de corral, que se guisaba con arroz.",
             "Azada de pico curvo con la que se arrancaban las raíces en la huerta."
           ],
-          "curiosidad": "Su origen es dudoso; suele vincularse con «gaznate», porque el gaznápiro es el que se queda boquiabierto, enseñando la garganta ante cualquier novedad.",
-          "verificar": true,
-          "nota_verificar": "Relación con «gaznate» es una hipótesis; revisar."
+          "curiosidad": "Forma parte de la rica colección de insultos del español para el simple que se queda pasmado ante cualquier cosa, junto a «papanatas» o «pasmarote».",
+          "verificar": false
         },
         {
           "palabra": "cuchipanda",
@@ -338,9 +319,8 @@
             "Navaja pequeña de punta redonda que se usaba para untar y pelar fruta.",
             "Cerda joven que todavía no ha tenido su primera camada."
           ],
-          "curiosidad": "Una cuchipanda es más que comer: es comer en buena compañía, sin prisa y con jarana. Su formación parece burlesca, quizá a partir de voces familiares de la comida y la juerga.",
-          "verificar": true,
-          "nota_verificar": "Origen no documentado; la frase sobre su formación es especulativa."
+          "curiosidad": "Es palabra coloquial y festiva, que suele ir con «ir de» o «estar de»: irse de cuchipanda es salir a comer y beber en buena compañía, sin prisa y con jarana.",
+          "verificar": false
         },
         {
           "palabra": "lechuguino",
@@ -365,9 +345,8 @@
             "Bandada de aves que vuela baja antes de una tormenta.",
             "Cuerda gruesa con que se amarran las barcas al muelle."
           ],
-          "curiosidad": "También se escribe «baraúnda». Su origen es incierto: se ha relacionado con voces hebreas o árabes, pero ninguna explicación convence del todo.",
-          "verificar": true,
-          "nota_verificar": "Confirmar la grafía alternativa y que el DLE da el origen como incierto."
+          "curiosidad": "La RAE prefiere hoy «baraúnda», más sencilla, aunque «barahúnda» sigue siendo la más usada. «Barahúnta», en cambio, es un error nacido de cruzarla con «marabunta».",
+          "verificar": false
         },
         {
           "palabra": "gorigori",
@@ -377,9 +356,8 @@
             "Gorrión que anida en los campanarios y se alimenta de migas.",
             "Papilla de harina y leche que se da a los niños de pecho."
           ],
-          "curiosidad": "Imita, en son de burla, el latín que salmodiaban los clérigos en los funerales. «Cantarle a alguien el gorigori» es darlo ya por muerto.",
-          "verificar": true,
-          "nota_verificar": "Origen onomatopéyico y la expresión «cantar el gorigori»: revisar."
+          "curiosidad": "Según Coromines, sale de la onomatopeya «gorg-», la de garganta y gorgorito, repetida: una burla del canto gregoriano de los funerales. En «La casa de Bernarda Alba», de Lorca, una criada se queja de «más de dos horas de gori-gori».",
+          "verificar": false
         },
         {
           "palabra": "mentidero",
@@ -390,8 +368,7 @@
             "Persona que se gana la vida inventando coplas y noticias."
           ],
           "curiosidad": "El Madrid del Siglo de Oro tuvo tres célebres: las gradas de San Felipe, en la calle Mayor; las losas de Palacio; y el de representantes, en la calle del León, frecuentado por cómicos y escritores. De ellos salían noticias… y bulos.",
-          "verificar": true,
-          "nota_verificar": "Confirmar la ubicación de los tres mentideros madrileños."
+          "verificar": false
         }
       ]
     }
