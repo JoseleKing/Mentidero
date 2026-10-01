@@ -7,13 +7,17 @@
   <meta name="description" content="Cada día, tres palabras raras del español y tres definiciones. Solo una es verdad.">
   <meta name="theme-color" content="#f3e9d2" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#1c1712" media="(prefers-color-scheme: dark)">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%239b2226'/%3E%3Ctext x='32' y='44' font-size='34' text-anchor='middle' fill='%23f3e9d2' font-family='Georgia,serif'%3EM%3C/text%3E%3C/svg%3E">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="icon" href="icons/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-title" content="Mentidero">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=IM+Fell+English+SC&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div id="portada" aria-hidden="true"><svg class="portada__logo" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><rect x="0" y="0" width="200" height="200" rx="44" fill="#F4ECDD"/><path d="M28 116 C70 96 132 128 174 102 L176 120 C132 148 70 114 30 134 Z" fill="#9B2C22"/><path d="M126.488 75.824 97.816 140.0H96.248L68.136 78.4V123.536Q68.136 132.048 70.152 134.792Q72.168 137.536 78.664 137.872V140.0H52.344V137.872Q59.288000000000004 137.424 61.248000000000005 134.792Q63.208 132.16 63.208 123.536V78.064Q63.208 71.904 61.36 70.168Q59.512 68.432 52.568000000000005 67.984V65.856H74.744L100.616 122.416L125.36800000000001 65.856H147.656V67.984Q141.38400000000001 68.544 139.64800000000002 70.336Q137.912 72.128 137.912 78.064V127.792Q137.912 133.728 139.704 135.57600000000002Q141.496 137.424 147.656 137.872V140.0H116.296V137.872Q122.904 137.424 124.696 135.464Q126.488 133.504 126.488 126.56Z" fill="#2B211A"/></svg></div>
   <div class="sheet">
     <header class="masthead">
       <button class="icon-btn" id="btn-help" type="button" aria-label="Cómo se juega">?</button>
@@ -21,7 +25,7 @@
         <h1>Mentidero</h1>
         <p class="masthead__sub" id="masthead-sub">Gaceta de verdades y bulos</p>
       </div>
-      <button class="icon-btn" id="btn-stats" type="button" aria-label="Estadísticas">§</button>
+      <button class="text-btn" id="btn-stats" type="button">Estadísticas</button>
     </header>
 
     <main id="app" aria-live="polite">

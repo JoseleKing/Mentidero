@@ -17,6 +17,7 @@ para publicar en GitHub Pages.
 | `app.js` | Lógica del juego: reto diario, racha, estadísticas, compartir, cuenta atrás |
 | `words.json` | Contenido: 10 días × 3 palabras |
 | `reiniciar/index.html` | Página para borrar el progreso guardado |
+| `icons/` | Logo de la app: SVG (favicon y portada), PNG de 32 px y `apple-touch-icon` de 180 px |
 | `tests/logic.test.js` | Pruebas de la lógica (Node, sin dependencias) |
 
 ## Probar en local

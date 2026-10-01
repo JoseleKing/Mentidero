@@ -274,7 +274,7 @@
       '<li>Cada día hay <b>tres palabras</b> raras, pero reales, del español.</li>' +
       '<li>Cada una trae tres definiciones: <b>una verdadera</b> y dos bulos.</li>' +
       '<li>Toca la que creas cierta. Solo hay un intento por palabra.</li>' +
-      '<li>Vuelve mañana: el pliego es el mismo para todos y la racha cuenta.</li>' +
+      '<li>Vuelve mañana: el pliego del día es el mismo para todos, y cada día que juegas suma a tu racha.</li>' +
       '</ol>';
   }
 
@@ -548,6 +548,17 @@
     route();
   }
 
+  // La portada con el logo se ve al menos PORTADA_MS desde que se abre la página y luego se desvanece.
+  function retirarPortada() {
+    var PORTADA_MS = 900, FUNDIDO_MS = 400;
+    var portada = document.getElementById('portada');
+    if (!portada) return;
+    setTimeout(function () {
+      portada.classList.add('oculta');
+      setTimeout(function () { portada.remove(); }, FUNDIDO_MS);
+    }, Math.max(0, PORTADA_MS - performance.now()));
+  }
+
   document.getElementById('btn-help').addEventListener('click', showIntro);
   document.getElementById('btn-stats').addEventListener('click', showStats);
   document.getElementById('modal-close').addEventListener('click', closeModal);
@@ -556,7 +567,8 @@
   fetch(CONFIG.WORDS_URL)
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(function (data) { words = data.dias; boot(); })
-    .catch(function () { screenError(); });
+    .catch(function () { screenError(); })
+    .then(retirarPortada);
 
   // Si la pestaña vuelve a primer plano en otro día, recargar el reto.
   document.addEventListener('visibilitychange', function () {
