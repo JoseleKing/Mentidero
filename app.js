@@ -12,9 +12,7 @@
     START_DATE: '2026-10-01',
     WORDS_URL: 'words.json',
     STORAGE_KEY: 'mentidero:v1',
-    WORDS_PER_DAY: 3,
-    // Permite simular otra fecha con ?fecha=AAAA-MM-DD (útil para probar).
-    ALLOW_DATE_OVERRIDE: true
+    WORDS_PER_DAY: 3
   };
 
   var MS_PER_DAY = 86400000;
@@ -202,7 +200,6 @@
   var state = loadState(storage);
   var words = null;     // array de días de words.json
   var today = 0;        // número de día del reto
-  var dateOverridden = false;
   var countdownTimer = null;
   var toastTimer = null;
   var LETTERS = ['A', 'B', 'C'];
@@ -213,21 +210,6 @@
     return String(str).replace(/[&<>"']/g, function (c) {
       return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
     });
-  }
-
-  // Fecha "actual": la real o la simulada con ?fecha=
-  function now() {
-    if (CONFIG.ALLOW_DATE_OVERRIDE) {
-      var param = new URLSearchParams(location.search).get('fecha');
-      var fake = parseISODate(param);
-      if (fake) {
-        dateOverridden = true;
-        var real = new Date();
-        fake.setHours(real.getHours(), real.getMinutes(), real.getSeconds());
-        return fake;
-      }
-    }
-    return new Date();
   }
 
   function longDate(d) {
@@ -513,7 +495,7 @@
     function tick() {
       var ms = msUntilNextDay(new Date());
       el.textContent = formatCountdown(ms);
-      if (ms <= 1000 && !dateOverridden) {
+      if (ms <= 1000) {
         stopCountdown();
         setTimeout(boot, 1500);
       }
@@ -533,8 +515,7 @@
     if (today < 1) return screenNotStarted();
     if (today > words.length) return screenEnded();
 
-    var d = now();
-    setSub('Pliego n.º ' + today + ' · ' + longDate(d) + (dateOverridden ? ' (simulado)' : ''));
+    setSub('Pliego n.º ' + today + ' · ' + longDate(new Date()));
 
     if (!state.introSeen) return screenIntro();
     var game = getGame(state, today);
@@ -543,7 +524,7 @@
   }
 
   function boot() {
-    today = dayNumber(now(), CONFIG.START_DATE);
+    today = dayNumber(new Date(), CONFIG.START_DATE);
     state = loadState(storage);
     route();
   }
@@ -572,6 +553,6 @@
 
   // Si la pestaña vuelve a primer plano en otro día, recargar el reto.
   document.addEventListener('visibilitychange', function () {
-    if (document.visibilityState === 'visible' && words && dayNumber(now(), CONFIG.START_DATE) !== today) boot();
+    if (document.visibilityState === 'visible' && words && dayNumber(new Date(), CONFIG.START_DATE) !== today) boot();
   });
 })();

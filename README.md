@@ -32,22 +32,12 @@ python3 -m http.server 8000
 
 Y abre <http://localhost:8000>.
 
-### Simular otra fecha
-
-Añade `?fecha=AAAA-MM-DD` a la URL para jugar como si fuera ese día, por
-ejemplo `http://localhost:8000/?fecha=2026-10-05`. Sirve para probar la racha
-(juega días consecutivos) o el mensaje de fin del prototipo (cualquier fecha a
-partir del día 11). La cabecera indica «(simulado)».
-
 ### Reiniciar el juego
 
 Visita `/reiniciar/` (por ejemplo `http://localhost:8000/reiniciar/`) y pulsa
 «Borrar mi progreso». Borra partidas, racha y estadísticas de ese navegador
 (la clave `mentidero:v1` del `localStorage`) y te devuelve al juego, que
 empieza de nuevo con la pantalla de bienvenida.
-
-Antes de publicar la versión definitiva, puedes desactivarlo poniendo
-`ALLOW_DATE_OVERRIDE: false` en `app.js`.
 
 ### Pruebas automáticas
 
