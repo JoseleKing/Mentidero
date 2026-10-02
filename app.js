@@ -218,6 +218,11 @@
 
   function persist() { saveState(storage, state); }
 
+  // Con la partida de hoy terminada, la mano ☜ marca Mentidero como «Hecho» en Almanaque.
+  function avisarAlmanaque() {
+    if (window.almanaqueHecho) window.almanaqueHecho();
+  }
+
   function setSub(text) { document.getElementById('masthead-sub').textContent = text; }
 
   function toast(msg) {
@@ -334,6 +339,7 @@
         var isRight = options[k].isTrue;
         if (!recordAnswer(state, today, index, isRight)) return;
         persist();
+        if (getGame(state, today).done) avisarAlmanaque();
         revealAnswer(entry, options, buttons, k, index);
       });
     });
@@ -519,7 +525,10 @@
 
     if (!state.introSeen) return screenIntro();
     var game = getGame(state, today);
-    if (game.done) return screenSummary();
+    if (game.done) {
+      avisarAlmanaque();
+      return screenSummary();
+    }
     screenQuestion(game.results.length);
   }
 
