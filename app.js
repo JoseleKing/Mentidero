@@ -408,6 +408,7 @@
       statsHTML() +
       '<div class="stack">' +
       '<button class="btn" id="btn-share" type="button">Compartir resultado</button>' +
+      '<a class="btn btn--ghost btn--enlace" data-almanaque-volver hidden href="https://joseleking.github.io/Almanaque/">☜ Volver a Almanaque</a>' +
       '</div>' +
       '<p class="countdown">' + (isLast ? 'Era el último pliego del prototipo. La imprenta cierra en' : 'Próximo pliego en') +
       '<time id="countdown">--:--:--</time></p>' +

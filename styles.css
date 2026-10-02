@@ -238,6 +238,12 @@ main {
   box-shadow: none;
 }
 .btn--ghost:hover { background: var(--lacre-tint); }
+.btn--enlace {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
 
 .btn:focus-visible,
 .icon-btn:focus-visible,
