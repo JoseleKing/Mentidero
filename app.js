@@ -218,9 +218,22 @@
 
   function persist() { saveState(storage, state); }
 
-  // Con la partida de hoy terminada, la mano ☜ marca Mentidero como «Hecho» en Almanaque.
+  // Con la partida de hoy terminada, la mano ☜ marca Mentidero como «Hecho» en Almanaque,
+  // y su hoja muestra los aciertos del día y la racha.
   function avisarAlmanaque() {
-    if (window.almanaqueHecho) window.almanaqueHecho();
+    var game = getGame(state, today);
+    function avisar() {
+      if (!window.almanaqueHecho) return;
+      window.almanaqueHecho({
+        aciertos: game.results.filter(Boolean).length,
+        total: game.results.length,
+        racha: currentStreak(state, today)
+      });
+    }
+    // Este script corre antes que volver-almanaque.js (que lleva defer): si aún no existe,
+    // se espera a DOMContentLoaded, que llega después de los scripts con defer.
+    if (window.almanaqueHecho) avisar();
+    else document.addEventListener('DOMContentLoaded', avisar, { once: true });
   }
 
   function setSub(text) { document.getElementById('masthead-sub').textContent = text; }
