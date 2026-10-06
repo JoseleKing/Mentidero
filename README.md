@@ -15,7 +15,7 @@ para publicar en GitHub Pages.
 | `index.html` | Estructura de la página |
 | `styles.css` | Estética de papel antiguo, modo oscuro automático, animaciones |
 | `app.js` | Lógica del juego: reto diario, racha, estadísticas, compartir, cuenta atrás |
-| `words.json` | Contenido: 10 días × 3 palabras |
+| `words.json` | Contenido: 41 días × 3 palabras |
 | `reiniciar/index.html` | Página para borrar el progreso guardado |
 | `icons/` | Logo de la app: SVG (favicon y portada), PNG de 32 px y `apple-touch-icon` de 180 px |
 | `tests/logic.test.js` | Pruebas de la lógica (Node, sin dependencias) |
@@ -62,8 +62,9 @@ var CONFIG = {
 
 El día del reto se calcula con la fecha local del jugador: el `START_DATE` es el
 pliego n.º 1, el día siguiente el n.º 2, etc. Antes de esa fecha se muestra un
-aviso de «próximamente» y, cuando se agotan los días de `words.json`, un mensaje
-de fin del prototipo.
+aviso de «próximamente». Cuando se agotan los días de `words.json`, el ciclo
+vuelve a empezar por el primero; el número de pliego sigue creciendo (#42, #43…).
+Con 41 días, el último es el 10 de noviembre de 2026 y el 11 vuelve el día 1.
 
 ## Contenido (`words.json`)
 

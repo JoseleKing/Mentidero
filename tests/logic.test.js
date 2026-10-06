@@ -18,8 +18,8 @@ function playDay(state, day, results) {
   results.forEach((r, i) => assert.equal(L.recordAnswer(state, day, i, r), true));
 }
 
-test('words.json: 10 días × 3 palabras con todos los campos', () => {
-  assert.equal(data.dias.length, 10);
+test('words.json: 41 días × 3 palabras con todos los campos', () => {
+  assert.equal(data.dias.length, 41);
   const seen = new Set();
   for (const dia of data.dias) {
     assert.equal(dia.palabras.length, 3);
@@ -32,14 +32,23 @@ test('words.json: 10 días × 3 palabras con todos los campos', () => {
       seen.add(p.palabra);
     }
   }
-  assert.equal(seen.size, 30);
+  assert.equal(seen.size, 123);
+});
+
+test('ciclo: tras el último día se vuelve al primero', () => {
+  // 10 de noviembre de 2026 = pliego 41 (el último); el 11 vuelve a empezar.
+  const n = L.dayNumber(L.parseISODate('2026-11-10'), L.CONFIG.START_DATE);
+  assert.equal(n, 41);
+  assert.equal(L.contentForDay(data.dias, n), data.dias[40]);
+  assert.equal(L.contentForDay(data.dias, n + 1), data.dias[0]);
+  assert.equal(L.contentForDay(data.dias, n + 2), data.dias[1]);
 });
 
 test('selección diaria: día según la fecha de inicio', () => {
   assert.equal(L.dayNumber(START, L.CONFIG.START_DATE), 1);
   assert.equal(L.dayNumber(addDays(START, 1), L.CONFIG.START_DATE), 2);
   assert.equal(L.dayNumber(addDays(START, 9), L.CONFIG.START_DATE), 10);
-  assert.equal(L.dayNumber(addDays(START, 10), L.CONFIG.START_DATE), 11); // > 10 → fin del prototipo
+  assert.equal(L.dayNumber(addDays(START, 10), L.CONFIG.START_DATE), 11);
   assert.equal(L.dayNumber(addDays(START, -1), L.CONFIG.START_DATE), 0);  // aún no empieza
   // Mismo día a cualquier hora
   const s = START;

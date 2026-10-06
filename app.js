@@ -48,6 +48,11 @@
     return daysBetween(parseISODate(startISO), now) + 1;
   }
 
+  // Contenido del pliego `day`: al acabarse los días, el ciclo vuelve a empezar por el primero.
+  function contentForDay(dias, day) {
+    return dias[(day - 1) % dias.length];
+  }
+
   // Hash FNV-1a de 32 bits.
   function hashString(str) {
     var h = 0x811c9dc5;
@@ -170,6 +175,7 @@
     parseISODate: parseISODate,
     toISODate: toISODate,
     dayNumber: dayNumber,
+    contentForDay: contentForDay,
     hashString: hashString,
     seededRandom: seededRandom,
     buildOptions: buildOptions,
@@ -320,7 +326,7 @@
   }
 
   function screenQuestion(index) {
-    var entry = words[today - 1].palabras[index];
+    var entry = contentForDay(words, today).palabras[index];
     var game = getGame(state, today);
     var options = buildOptions(entry, today);
 
@@ -394,7 +400,7 @@
 
   function screenSummary() {
     var game = getGame(state, today);
-    var day = words[today - 1];
+    var day = contentForDay(words, today);
     var score = game.results.filter(Boolean).length;
     var phrases = [
       'Hoy los bulos se han salido con la suya.',
@@ -403,7 +409,6 @@
       '¡Ni un bulo te ha pasado! Digno de la Real Academia.'
     ];
     var emoji = game.results.map(function (r) { return r ? '🟢' : '🔴'; }).join('');
-    var isLast = today === words.length;
 
     render(
       '<section class="screen">' +
@@ -423,7 +428,7 @@
       '<button class="btn" id="btn-share" type="button">Compartir resultado</button>' +
       '<a class="btn btn--ghost btn--enlace" data-almanaque-volver hidden href="https://joseleking.github.io/Almanaque/">☜ Regresar al Almanaque</a>' +
       '</div>' +
-      '<p class="countdown">' + (isLast ? 'Era el último pliego del prototipo. La imprenta cierra en' : 'Próximo pliego en') +
+      '<p class="countdown">Próximo pliego en' +
       '<time id="countdown">--:--:--</time></p>' +
       '</section>'
     );
@@ -432,20 +437,6 @@
       share(shareText(today, game.results));
     });
     startCountdown();
-  }
-
-  function screenEnded() {
-    setSub('Fin del prototipo');
-    render(
-      '<section class="screen screen--center">' +
-      '<p class="kicker">Se acabó la tinta</p>' +
-      '<div class="fleuron">❦</div>' +
-      '<p>Has llegado al final de este prototipo de <b>Mentidero</b>: los ' + words.length +
-      ' pliegos de palabras ya se han publicado.</p>' +
-      '<p>Los impresores andan componiendo nuevas palabras. <b>Muy pronto habrá más.</b> ¡Gracias por jugar!</p>' +
-      (state.stats.played ? statsHTML() : '') +
-      '</section>'
-    );
   }
 
   function screenNotStarted() {
@@ -533,7 +524,6 @@
 
   function route() {
     if (today < 1) return screenNotStarted();
-    if (today > words.length) return screenEnded();
 
     setSub('Pliego n.º ' + today + ' · ' + longDate(new Date()));
 
