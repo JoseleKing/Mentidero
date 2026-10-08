@@ -120,10 +120,9 @@ test('persistencia en almacenamiento', () => {
   assert.deepEqual(L.loadState(storage), L.emptyState());
 });
 
-test('texto para compartir: emojis sin revelar respuestas', () => {
+test('texto para compartir: marcas sin revelar respuestas', () => {
   const t = L.shareText(4, [true, false, true]);
-  assert.equal(t.split('\n')[0], 'Mentidero #4 🟢🔴🟢');
-  assert.match(t, /2\/3/);
+  assert.equal(t, 'Mentidero nº 4 ▰▱▰ 2/3 aciertos\njoseleking.github.io/Mentidero');
   for (const dia of data.dias) for (const p of dia.palabras) assert.ok(!t.includes(p.palabra));
 });
 

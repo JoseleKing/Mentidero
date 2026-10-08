@@ -153,10 +153,11 @@
     return s.lastDay >= today - 1 ? s.streak : 0;
   }
 
+  // Una marca por palabra: ▰ acertada, ▱ fallada. «Mentidero nº 7 ▰▱▰ 2/3 aciertos» y el enlace.
   function shareText(day, results) {
-    var dots = results.map(function (r) { return r ? '🟢' : '🔴'; }).join('');
+    var marks = results.map(function (r) { return r ? '▰' : '▱'; }).join('');
     var score = results.filter(Boolean).length;
-    return 'Mentidero #' + day + ' ' + dots + '\n' + score + '/' + results.length + ' verdades descubiertas';
+    return 'Mentidero nº ' + day + ' ' + marks + ' ' + score + '/' + results.length + ' aciertos\njoseleking.github.io/Mentidero';
   }
 
   function msUntilNextDay(now) {
@@ -462,9 +463,7 @@
 
   // ---------- Compartir ----------
 
-  function share(text) {
-    var url = location.origin + location.pathname;
-    var full = text + (location.protocol.indexOf('http') === 0 ? '\n' + url : '');
+  function share(full) {
     if (navigator.share && window.matchMedia('(pointer: coarse)').matches) {
       navigator.share({ text: full }).catch(function (err) {
         if (err && err.name !== 'AbortError') copy(full);
