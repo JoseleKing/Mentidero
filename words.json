@@ -405,8 +405,7 @@
             "Dicho de un animal: que tiene las patas traseras más largas que las delanteras."
           ],
           "curiosidad": "Se dice sobre todo «niño zangolotino»: el chaval ya crecido que sigue haciéndose el pequeño para que lo mimen o no le pidan responsabilidades.",
-          "verificar": true,
-          "nota_verificar": "Comprobar si el DLE la relaciona con «zangolotear»."
+          "verificar": false
         }
       ]
     },
@@ -420,9 +419,8 @@
             "Dicho de una persona: que padece vértigo al asomarse a las alturas.",
             "Dicho de un ave: que vuela siempre por encima de las nubes."
           ],
-          "curiosidad": "Del griego «nephélē», «nube», y «-bátēs», «que anda»: el que camina por las nubes. A finales del siglo XIX se aplicó, a menudo en burla, a los poetas modernistas y simbolistas.",
-          "verificar": true,
-          "nota_verificar": "Confirmar el uso aplicado a los modernistas."
+          "curiosidad": "Del griego «nephélē», «nube», y «-bátēs», «que anda»: el que camina por las nubes. A finales del siglo XIX se aplicó, en burla, a poetas simbolistas portugueses y luego a los modernistas; Rubén Darío la hizo famosa en español.",
+          "verificar": false
         },
         {
           "palabra": "carpanta",
@@ -444,8 +442,7 @@
             "Lugarteniente que mandaba en ausencia del capitán."
           ],
           "curiosidad": "Se suele explicar como alusión a los excesos que se atribuían al emperador romano Tiberio en su retiro de Capri.",
-          "verificar": true,
-          "nota_verificar": "Confirmar el origen en el emperador Tiberio."
+          "verificar": false
         }
       ]
     },
@@ -592,9 +589,8 @@
             "Pez pequeño de río que se pescaba con red y se comía frito.",
             "Sermón breve y en latín que se decía en las misas de difuntos."
           ],
-          "curiosidad": "Parece latín, pero no lo es: es una palabra festiva formada a la manera latina, como tantos latinajos de broma.",
-          "verificar": true,
-          "nota_verificar": "Confirmar el origen (latín macarrónico)."
+          "curiosidad": "Su origen es incierto. Parece latín, pero no lo es: suena a uno de esos latinajos de broma.",
+          "verificar": false
         }
       ]
     },
@@ -730,9 +726,8 @@
             "Hermana lega encargada de cantar las horas en el coro.",
             "Moneda de plata que se acuñó en los dominios de la Iglesia."
           ],
-          "curiosidad": "Se explica por la vida regalada que se atribuía a los canónigos, que podían permitirse dormir antes de la comida y no solo después.",
-          "verificar": true,
-          "nota_verificar": "Confirmar la explicación del nombre."
+          "curiosidad": "Se llama también siesta del canónigo: el nombre alude a los canónigos, a los que la tradición popular atribuía una vida descansada.",
+          "verificar": false
         },
         {
           "palabra": "maguer",
@@ -742,9 +737,8 @@
             "Mago o hechicero de los cuentos populares.",
             "Muela del juicio, en el habla antigua de los barberos."
           ],
-          "curiosidad": "Era muy común en el español medieval. Viene del griego «makárie», «dichoso», que pasó a usarse como «ojalá» y de ahí como «aunque».",
-          "verificar": true,
-          "nota_verificar": "Confirmar la etimología griega."
+          "curiosidad": "Era muy común en el español medieval. Viene del griego «makári», «ojalá», y este de «makários», «dichoso»; de «ojalá» pasó a «aunque».",
+          "verificar": false
         }
       ]
     },
@@ -806,9 +800,8 @@
             "Dicho de una persona: que lleva el peinado recogido muy alto sobre la cabeza.",
             "Dicho de un camino: que sube con mucha pendiente."
           ],
-          "curiosidad": "Viene de «empingorotar», poner algo encima de otra cosa, en lo alto: el empingorotado está encaramado, y se nota.",
-          "verificar": true,
-          "nota_verificar": "Confirmar la relación con «empingorotar»."
+          "curiosidad": "Viene de «empingorotar», formado sobre «pingorote»: levantar algo poniéndolo encima de otra cosa. El empingorotado está encaramado, y se nota.",
+          "verificar": false
         },
         {
           "palabra": "dicterio",
@@ -945,8 +938,7 @@
             "Columna de piedra que marcaba los límites de un término municipal."
           ],
           "curiosidad": "Se suele explicar a partir de «hueste antigua», el ejército del enemigo antiguo, es decir, del demonio. Es pariente de la Santa Compaña gallega.",
-          "verificar": true,
-          "nota_verificar": "Confirmar la etimología «hueste antigua»."
+          "verificar": false
         },
         {
           "palabra": "fámulo",
@@ -1216,8 +1208,7 @@
             "Peral silvestre de fruto pequeño y áspero."
           ],
           "curiosidad": "Se suele explicar a partir de un nombre propio, «Per Illán», como pasa con otros nombres convertidos en tipos.",
-          "verificar": true,
-          "nota_verificar": "Confirmar la etimología «Per Illán»."
+          "verificar": false
         },
         {
           "palabra": "regüeldo",
@@ -1375,9 +1366,8 @@
             "Gata vieja y maulladora.",
             "Caricia hipócrita que se hace para conseguir algo."
           ],
-          "curiosidad": "Junta «cara» con «maula», que es cosa inútil o engañosa: una cara falsa, y fea.",
-          "verificar": true,
-          "nota_verificar": "Confirmar el origen «cara» + «maula»."
+          "curiosidad": "Se suele relacionar con «cara». Hoy apenas se usa, salvo para llamar fea a una persona.",
+          "verificar": false
         }
       ]
     },
@@ -1429,8 +1419,7 @@
             "Que mide más de dos varas de alto."
           ],
           "curiosidad": "En origen se dijo de ciertos frailes de vida libre, y se relaciona con los «begardos», una secta medieval.",
-          "verificar": true,
-          "nota_verificar": "Confirmar la relación con los begardos."
+          "verificar": false
         },
         {
           "palabra": "sopicaldo",
@@ -1563,8 +1552,7 @@
             "Remedio casero para quitar el hipo."
           ],
           "curiosidad": "Se suele explicar por la epístola de san Pablo «ad Ephesios»: predicar a los efesios habría sido hablar en vano.",
-          "verificar": true,
-          "nota_verificar": "El origen en la epístola a los efesios es la explicación tradicional; conviene comprobarla en el DLE"
+          "verificar": false
         }
       ]
     },
@@ -1663,9 +1651,8 @@
             "Vendedor ambulante de baratijas.",
             "Tela basta de saco."
           ],
-          "curiosidad": "En el siglo XVII era un afeite, una especie de maquillaje.",
-          "verificar": true,
-          "nota_verificar": "Conviene comprobar en el DLE la acepción antigua de 'afeite'"
+          "curiosidad": "En otro tiempo, el badulaque fue un afeite, un maquillaje hecho con varios ingredientes.",
+          "verificar": false
         },
         {
           "palabra": "bártulos",
@@ -1676,8 +1663,7 @@
             "Pájaros pequeños que anidan en los tejados."
           ],
           "curiosidad": "«Liar los bártulos» es recoger las cosas para mudarse. Se suele relacionar con Bártolo de Sassoferrato, jurista cuyos libros llevaban los estudiantes.",
-          "verificar": true,
-          "nota_verificar": "La relación con Bártolo de Sassoferrato es la explicación habitual; comprobar"
+          "verificar": false
         }
       ]
     },
@@ -1766,8 +1752,7 @@
             "Bollo pequeño relleno de crema."
           ],
           "curiosidad": "Se cuenta que un estudiante leyó mal «in diebus illis» y, al no entender «busillis», preguntó qué significaba: ahí estaba el busilis.",
-          "verificar": true,
-          "nota_verificar": "La anécdota es tradicional; comprobar"
+          "verificar": false
         },
         {
           "palabra": "cancerbero",
