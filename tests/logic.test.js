@@ -18,8 +18,8 @@ function playDay(state, day, results) {
   results.forEach((r, i) => assert.equal(L.recordAnswer(state, day, i, r), true));
 }
 
-test('words.json: 41 días × 3 palabras con todos los campos', () => {
-  assert.equal(data.dias.length, 41);
+test('words.json: 71 días × 3 palabras con todos los campos', () => {
+  assert.equal(data.dias.length, 71);
   const seen = new Set();
   for (const dia of data.dias) {
     assert.equal(dia.palabras.length, 3);
@@ -32,14 +32,14 @@ test('words.json: 41 días × 3 palabras con todos los campos', () => {
       seen.add(p.palabra);
     }
   }
-  assert.equal(seen.size, 123);
+  assert.equal(seen.size, 213);
 });
 
 test('ciclo: tras el último día se vuelve al primero', () => {
-  // 10 de noviembre de 2026 = pliego 41 (el último); el 11 vuelve a empezar.
-  const n = L.dayNumber(L.parseISODate('2026-11-10'), L.CONFIG.START_DATE);
-  assert.equal(n, 41);
-  assert.equal(L.contentForDay(data.dias, n), data.dias[40]);
+  // 10 de diciembre de 2026 = pliego 71 (el último); el 11 vuelve a empezar.
+  const n = L.dayNumber(L.parseISODate('2026-12-10'), L.CONFIG.START_DATE);
+  assert.equal(n, 71);
+  assert.equal(L.contentForDay(data.dias, n), data.dias[70]);
   assert.equal(L.contentForDay(data.dias, n + 1), data.dias[0]);
   assert.equal(L.contentForDay(data.dias, n + 2), data.dias[1]);
 });

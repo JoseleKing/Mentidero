@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "nota": "41 días × 3 palabras; al acabarse, el ciclo vuelve a empezar. 'verdadera' parafrasea el DLE de la RAE; 'falsas' son inventadas. Las entradas con \"verificar\": true tienen algún dato que conviene revisar; el motivo está en 'nota_verificar'.",
+  "nota": "71 días × 3 palabras; al acabarse, el ciclo vuelve a empezar. 'verdadera' parafrasea el DLE de la RAE; 'falsas' son inventadas. Las entradas con \"verificar\": true tienen algún dato que conviene revisar; el motivo está en 'nota_verificar'.",
   "dias": [
     {
       "palabras": [
@@ -1526,6 +1526,1120 @@
             "Farolillo de papel que se cuelga en las verbenas."
           ],
           "curiosidad": "Valle-Inclán convirtió la palabra en género literario con «Luces de bohemia»: la realidad deformada, como en los espejos cóncavos del callejón del Gato de Madrid.",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "palabras": [
+        {
+          "palabra": "abigarrado",
+          "categoria": "adjetivo",
+          "verdadera": "De varios colores mal combinados.",
+          "falsas": [
+            "Dicho de un camino: lleno de curvas y repechos.",
+            "Que tiene la barba espesa y descuidada."
+          ],
+          "curiosidad": "Por extensión se dice de lo heterogéneo y mezclado sin orden: «una multitud abigarrada».",
+          "verificar": false
+        },
+        {
+          "palabra": "acémila",
+          "categoria": "sustantivo femenino",
+          "verdadera": "Mula o macho de carga.",
+          "falsas": [
+            "Pastel de almendra típico de las fiestas de Navidad.",
+            "Vasija de barro para guardar el aceite."
+          ],
+          "curiosidad": "Viene del árabe hispánico; en sentido figurado se llama así a la persona ruda o torpe.",
+          "verificar": false
+        },
+        {
+          "palabra": "adefesio",
+          "categoria": "sustantivo masculino",
+          "verdadera": "Persona, cosa o prenda ridícula, extravagante o muy fea.",
+          "falsas": [
+            "Sermón muy largo que se pronuncia en los funerales.",
+            "Remedio casero para quitar el hipo."
+          ],
+          "curiosidad": "Se suele explicar por la epístola de san Pablo «ad Ephesios»: predicar a los efesios habría sido hablar en vano.",
+          "verificar": true,
+          "nota_verificar": "El origen en la epístola a los efesios es la explicación tradicional; conviene comprobarla en el DLE"
+        }
+      ]
+    },
+    {
+      "palabras": [
+        {
+          "palabra": "albañal",
+          "categoria": "sustantivo masculino",
+          "verdadera": "Canal o conducto que da salida a las aguas inmundas.",
+          "falsas": [
+            "Pared baja de piedra seca que separa dos fincas.",
+            "Aprendiz de albañil."
+          ],
+          "curiosidad": "Viene del árabe hispánico; se usa también para cualquier sitio muy sucio.",
+          "verificar": false
+        },
+        {
+          "palabra": "alfeñique",
+          "categoria": "sustantivo masculino",
+          "verdadera": "Persona delicada, de complexión débil.",
+          "falsas": [
+            "Hombre presumido que se perfuma en exceso.",
+            "Clavo largo de cabeza redonda para el calzado."
+          ],
+          "curiosidad": "En origen era una pasta de azúcar cocida y estirada en barras retorcidas, muy frágil: de ahí la persona enclenque.",
+          "verificar": false
+        },
+        {
+          "palabra": "algarabía",
+          "categoria": "sustantivo femenino",
+          "verdadera": "Gritería confusa de varias personas que hablan a un tiempo.",
+          "falsas": [
+            "Fiesta popular con fuegos artificiales.",
+            "Conjunto de las joyas de una novia."
+          ],
+          "curiosidad": "Primero significó 'lengua árabe': para los castellanos, hablar algarabía era hablar algo incomprensible.",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "palabras": [
+        {
+          "palabra": "aljibe",
+          "categoria": "sustantivo masculino",
+          "verdadera": "Depósito subterráneo donde se recoge y conserva el agua de lluvia.",
+          "falsas": [
+            "Chaleco de lana que usan los pastores.",
+            "Puesto de vigilancia en lo alto de una muralla."
+          ],
+          "curiosidad": "Viene del árabe al-ŷubb, 'el pozo'.",
+          "verificar": false
+        },
+        {
+          "palabra": "almadreña",
+          "categoria": "sustantivo femenino",
+          "verdadera": "Zueco de madera.",
+          "falsas": [
+            "Mujer que cría a un niño que no es suyo.",
+            "Masa de pan dulce con anís."
+          ],
+          "curiosidad": "Es el calzado tradicional de Asturias y Cantabria, con tres tacos de madera para no hundirse en el barro.",
+          "verificar": false
+        },
+        {
+          "palabra": "andorga",
+          "categoria": "sustantivo femenino, coloquial",
+          "verdadera": "Vientre, barriga.",
+          "falsas": [
+            "Mujer que anda siempre de un lado a otro.",
+            "Cuerda gruesa de los barcos de pesca."
+          ],
+          "curiosidad": "Se usa sobre todo en la expresión «llenar la andorga», 'comer hasta hartarse'.",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "palabras": [
+        {
+          "palabra": "arrumaco",
+          "categoria": "sustantivo masculino, coloquial",
+          "verdadera": "Demostración de cariño hecha con gestos o ademanes.",
+          "falsas": [
+            "Montón de trastos viejos arrinconados.",
+            "Ruido sordo que hace el mar al romper en las rocas."
+          ],
+          "curiosidad": "Casi siempre se usa en plural: «estaban haciéndose arrumacos en el sofá».",
+          "verificar": false
+        },
+        {
+          "palabra": "badulaque",
+          "categoria": "adjetivo y sustantivo, coloquial",
+          "verdadera": "Persona necia, inconsistente.",
+          "falsas": [
+            "Vendedor ambulante de baratijas.",
+            "Tela basta de saco."
+          ],
+          "curiosidad": "En el siglo XVII era un afeite, una especie de maquillaje.",
+          "verificar": true,
+          "nota_verificar": "Conviene comprobar en el DLE la acepción antigua de 'afeite'"
+        },
+        {
+          "palabra": "bártulos",
+          "categoria": "sustantivo masculino plural",
+          "verdadera": "Enseres que se manejan, utensilios de uso corriente.",
+          "falsas": [
+            "Libros de leyes de un abogado.",
+            "Pájaros pequeños que anidan en los tejados."
+          ],
+          "curiosidad": "«Liar los bártulos» es recoger las cosas para mudarse. Se suele relacionar con Bártolo de Sassoferrato, jurista cuyos libros llevaban los estudiantes.",
+          "verificar": true,
+          "nota_verificar": "La relación con Bártolo de Sassoferrato es la explicación habitual; comprobar"
+        }
+      ]
+    },
+    {
+      "palabras": [
+        {
+          "palabra": "bergante",
+          "categoria": "sustantivo masculino",
+          "verdadera": "Pícaro, sinvergüenza.",
+          "falsas": [
+            "Barco de dos palos dedicado al contrabando.",
+            "Soldado que monta guardia en un puente."
+          ],
+          "curiosidad": "Viene probablemente del catalán bergant, 'mozo', 'vagabundo'.",
+          "verificar": false
+        },
+        {
+          "palabra": "birlibirloque",
+          "categoria": "sustantivo masculino",
+          "verdadera": "Se usa en «por arte de birlibirloque»: por medios ocultos y extraordinarios.",
+          "falsas": [
+            "Juego infantil de ruedas y palos.",
+            "Pájaro cantor de plumaje gris."
+          ],
+          "curiosidad": "Es la manera popular de decir que algo ha aparecido o desaparecido como por magia.",
+          "verificar": false
+        },
+        {
+          "palabra": "bisoño",
+          "categoria": "adjetivo y sustantivo",
+          "verdadera": "Nuevo e inexperto en un arte u oficio.",
+          "falsas": [
+            "Que tiene los ojos de distinto color.",
+            "Que se levanta muy temprano."
+          ],
+          "curiosidad": "Viene del italiano bisogno, 'necesidad': así llamaban en Italia a los soldados españoles recién llegados, que pedían lo que les faltaba.",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "palabras": [
+        {
+          "palabra": "bocamanga",
+          "categoria": "sustantivo femenino",
+          "verdadera": "Parte de la manga más cercana a la muñeca.",
+          "falsas": [
+            "Agujero de salida de una chimenea.",
+            "Bocado que se toma de pie antes de la comida."
+          ],
+          "curiosidad": "En los uniformes militares, en ella van a veces los galones.",
+          "verificar": false
+        },
+        {
+          "palabra": "botarate",
+          "categoria": "adjetivo y sustantivo, coloquial",
+          "verdadera": "Persona alborotada y de poco juicio.",
+          "falsas": [
+            "Barca pequeña para cruzar ríos.",
+            "Recipiente de cuero para el vino."
+          ],
+          "curiosidad": "En América se dice también del derrochador.",
+          "verificar": false
+        },
+        {
+          "palabra": "buscavidas",
+          "categoria": "sustantivo común",
+          "verdadera": "Persona muy diligente en buscarse el sustento.",
+          "falsas": [
+            "Médico que atiende en los pueblos.",
+            "Perro adiestrado para rastrear heridos."
+          ],
+          "curiosidad": "Se dice con cierta admiración de quien siempre sale adelante.",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "palabras": [
+        {
+          "palabra": "busilis",
+          "categoria": "sustantivo masculino, coloquial",
+          "verdadera": "Punto en que estriba la dificultad de algo.",
+          "falsas": [
+            "Remolino de agua en el centro de un río.",
+            "Bollo pequeño relleno de crema."
+          ],
+          "curiosidad": "Se cuenta que un estudiante leyó mal «in diebus illis» y, al no entender «busillis», preguntó qué significaba: ahí estaba el busilis.",
+          "verificar": true,
+          "nota_verificar": "La anécdota es tradicional; comprobar"
+        },
+        {
+          "palabra": "cancerbero",
+          "categoria": "sustantivo masculino",
+          "verdadera": "Portero o guarda severo o de bruscos modales.",
+          "falsas": [
+            "Perro de pelo largo para el pastoreo.",
+            "Vendedor de canciones impresas en las ferias."
+          ],
+          "curiosidad": "Viene de Cerbero, el perro de tres cabezas que guardaba la puerta del infierno. En el fútbol, es el portero.",
+          "verificar": false
+        },
+        {
+          "palabra": "caletre",
+          "categoria": "sustantivo masculino, coloquial",
+          "verdadera": "Tino, discernimiento, capacidad.",
+          "falsas": [
+            "Callejón estrecho y sin salida.",
+            "Caldo espeso de garbanzos."
+          ],
+          "curiosidad": "«Eso no le cabe en el caletre» es 'no lo entiende'.",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "palabras": [
+        {
+          "palabra": "camorra",
+          "categoria": "sustantivo femenino",
+          "verdadera": "Riña o pendencia.",
+          "falsas": [
+            "Gorra de lana con orejeras.",
+            "Cuerda para atar las camas a la pared."
+          ],
+          "curiosidad": "«Buscar camorra» es provocar una pelea. En Nápoles, la Camorra es una organización mafiosa.",
+          "verificar": false
+        },
+        {
+          "palabra": "carantoña",
+          "categoria": "sustantivo femenino, coloquial",
+          "verdadera": "Halago y caricia que se hacen a alguien para conseguir algo.",
+          "falsas": [
+            "Careta de cartón de carnaval.",
+            "Tos seca y persistente."
+          ],
+          "curiosidad": "Se usa sobre todo en plural: «a fuerza de carantoñas consiguió el permiso».",
+          "verificar": false
+        },
+        {
+          "palabra": "carcamal",
+          "categoria": "sustantivo masculino, coloquial",
+          "verdadera": "Persona decrépita y achacosa.",
+          "falsas": [
+            "Coche de caballos muy grande.",
+            "Cangrejo de río."
+          ],
+          "curiosidad": "Se dice despectivamente: «ese carcamal no se entera de nada».",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "palabras": [
+        {
+          "palabra": "chafarrinón",
+          "categoria": "sustantivo masculino",
+          "verdadera": "Mancha que echa a perder una cosa.",
+          "falsas": [
+            "Charco grande que queda tras la lluvia.",
+            "Sombrero de ala ancha de los arrieros."
+          ],
+          "curiosidad": "Es aumentativo de «chafarrinada», con el mismo significado.",
+          "verificar": false
+        },
+        {
+          "palabra": "chamizo",
+          "categoria": "sustantivo masculino",
+          "verdadera": "Choza cubierta de paja; también, tugurio sórdido.",
+          "falsas": [
+            "Leño a medio quemar.",
+            "Vino joven de mala calidad."
+          ],
+          "curiosidad": "En el sentido de choza, se llama así porque se cubría de chamiza, una hierba de los terrenos húmedos.",
+          "verificar": false
+        },
+        {
+          "palabra": "chascarrillo",
+          "categoria": "sustantivo masculino, coloquial",
+          "verdadera": "Anécdota ligera y picante, o frase de sentido equívoco y gracioso.",
+          "falsas": [
+            "Ruido que hacen las castañas al asarse.",
+            "Golpe dado con la punta de los dedos."
+          ],
+          "curiosidad": "Es diminutivo de «chascarro», que ya apenas se usa.",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "palabras": [
+        {
+          "palabra": "chirigota",
+          "categoria": "sustantivo femenino",
+          "verdadera": "Comparsa de carnaval que canta canciones humorísticas; también, broma.",
+          "falsas": [
+            "Gota de agua que cae del tejado.",
+            "Pájaro pequeño que anida en los juncos."
+          ],
+          "curiosidad": "Las chirigotas del Carnaval de Cádiz son las más famosas: cantan en clave de humor sobre la actualidad.",
+          "verificar": false
+        },
+        {
+          "palabra": "chisgarabís",
+          "categoria": "sustantivo masculino, coloquial",
+          "verdadera": "Hombre entrometido, bullicioso y de poca importancia.",
+          "falsas": [
+            "Juego de cartas de las tabernas.",
+            "Rasgo muy pequeño hecho con la pluma."
+          ],
+          "curiosidad": "Es sinónimo de «zascandil» y de «mequetrefe».",
+          "verificar": false
+        },
+        {
+          "palabra": "cicerone",
+          "categoria": "sustantivo común",
+          "verdadera": "Persona que enseña y explica las curiosidades de una localidad, un edificio, etc.",
+          "falsas": [
+            "Abogado que habla en latín.",
+            "Orador que se repite sin cesar."
+          ],
+          "curiosidad": "Viene del italiano: los guías de Roma eran tan elocuentes que los compararon con Cicerón.",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "palabras": [
+        {
+          "palabra": "cochambre",
+          "categoria": "sustantivo ambiguo, coloquial",
+          "verdadera": "Suciedad, cosa grasienta y sucia, de mal olor.",
+          "falsas": [
+            "Corral donde se crían los cerdos.",
+            "Coche viejo que hace mucho ruido."
+          ],
+          "curiosidad": "Se puede decir «el cochambre» o «la cochambre».",
+          "verificar": false
+        },
+        {
+          "palabra": "cuitado",
+          "categoria": "adjetivo",
+          "verdadera": "Afligido, desventurado.",
+          "falsas": [
+            "Cuidado con esmero.",
+            "Que habla muy deprisa."
+          ],
+          "curiosidad": "Viene de «cuita», 'pena', 'trabajo'. También se dice de la persona apocada.",
+          "verificar": false
+        },
+        {
+          "palabra": "dédalo",
+          "categoria": "sustantivo masculino",
+          "verdadera": "Laberinto, lugar o cosa confusa y enredada.",
+          "falsas": [
+            "Dedal de metal para coser.",
+            "Juego de dados de los soldados."
+          ],
+          "curiosidad": "Viene de Dédalo, el arquitecto que construyó el laberinto de Creta.",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "palabras": [
+        {
+          "palabra": "desaborido",
+          "categoria": "adjetivo",
+          "verdadera": "Sin sabor; dicho de una persona, sosa, de carácter indiferente.",
+          "falsas": [
+            "Que ha perdido el habla por un susto.",
+            "Que no tiene vecinos cerca."
+          ],
+          "curiosidad": "En muchos sitios se dice «esaborío».",
+          "verificar": false
+        },
+        {
+          "palabra": "dislate",
+          "categoria": "sustantivo masculino",
+          "verdadera": "Disparate.",
+          "falsas": [
+            "Lámina fina de madera.",
+            "Desprendimiento de tierras."
+          ],
+          "curiosidad": "«Cometer un dislate» es hacer o decir algo sin sentido.",
+          "verificar": false
+        },
+        {
+          "palabra": "engendro",
+          "categoria": "sustantivo masculino",
+          "verdadera": "Criatura informe que nace sin la proporción debida; también, plan u obra mal concebidos.",
+          "falsas": [
+            "Primera cosecha del año.",
+            "Instrumento para injertar árboles."
+          ],
+          "curiosidad": "«Ese edificio es un engendro» es una crítica habitual.",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "palabras": [
+        {
+          "palabra": "entelequia",
+          "categoria": "sustantivo femenino",
+          "verdadera": "Cosa irreal, que solo existe en la imaginación.",
+          "falsas": [
+            "Enfermedad del ganado lanar.",
+            "Enredo de hilos difícil de deshacer."
+          ],
+          "curiosidad": "En Aristóteles era el estado de perfección de un ser; el uso corriente la convirtió en algo irreal.",
+          "verificar": false
+        },
+        {
+          "palabra": "escabechina",
+          "categoria": "sustantivo femenino",
+          "verdadera": "Estrago, destrozo; también, abundancia de suspensos en un examen.",
+          "falsas": [
+            "Tienda donde se venden escabeches.",
+            "Merienda en el campo."
+          ],
+          "curiosidad": "Viene de «escabechar», que también significó 'matar a mano airada'.",
+          "verificar": false
+        },
+        {
+          "palabra": "estulto",
+          "categoria": "adjetivo",
+          "verdadera": "Necio, tonto.",
+          "falsas": [
+            "Que está muy erguido.",
+            "Que hace sus estudios en casa."
+          ],
+          "curiosidad": "Viene del latín stultus, el mismo de «estulticia».",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "palabras": [
+        {
+          "palabra": "fanfarria",
+          "categoria": "sustantivo femenino",
+          "verdadera": "Bravata, jactancia; también, banda de música de metales.",
+          "falsas": [
+            "Fiebre alta con escalofríos.",
+            "Farol de una feria."
+          ],
+          "curiosidad": "El «fanfarrón» es el que hace fanfarrias.",
+          "verificar": false
+        },
+        {
+          "palabra": "farfullar",
+          "categoria": "verbo transitivo",
+          "verdadera": "Hablar muy deprisa y de forma atropellada.",
+          "falsas": [
+            "Quitar las hojas al maíz.",
+            "Remendar la ropa con prisa."
+          ],
+          "curiosidad": "Es palabra de origen onomatopéyico.",
+          "verificar": false
+        },
+        {
+          "palabra": "fullero",
+          "categoria": "adjetivo y sustantivo",
+          "verdadera": "Que hace trampas en el juego.",
+          "falsas": [
+            "Que fuma en pipa.",
+            "Que se lleva muy bien con todos."
+          ],
+          "curiosidad": "Viene de «fulla», 'trampa'.",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "palabras": [
+        {
+          "palabra": "gañán",
+          "categoria": "sustantivo masculino",
+          "verdadera": "Mozo de labranza; también, hombre rudo y tosco.",
+          "falsas": [
+            "Gancho para colgar los jamones.",
+            "Ganado que pasta suelto en el monte."
+          ],
+          "curiosidad": "Del sentido de mozo de labranza se pasó al de hombre basto.",
+          "verificar": false
+        },
+        {
+          "palabra": "garlito",
+          "categoria": "sustantivo masculino",
+          "verdadera": "Especie de nasa para pescar; en sentido figurado, celada o trampa.",
+          "falsas": [
+            "Vino muy dulce de Málaga.",
+            "Pájaro pequeño de los jardines."
+          ],
+          "curiosidad": "«Caer en el garlito» es caer en la trampa.",
+          "verificar": false
+        },
+        {
+          "palabra": "guripa",
+          "categoria": "sustantivo masculino, coloquial",
+          "verdadera": "Soldado raso.",
+          "falsas": [
+            "Pan de maíz de los pastores.",
+            "Gorra de lana con borla."
+          ],
+          "curiosidad": "En España se usa también para un agente de policía o un golfo.",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "palabras": [
+        {
+          "palabra": "haragán",
+          "categoria": "adjetivo y sustantivo",
+          "verdadera": "Que rehúye el trabajo y pasa la vida ociosamente.",
+          "falsas": [
+            "Que habla con acento extranjero.",
+            "Que reparte el pan por las casas."
+          ],
+          "curiosidad": "Es palabra de origen incierto.",
+          "verificar": false
+        },
+        {
+          "palabra": "hojarasca",
+          "categoria": "sustantivo femenino",
+          "verdadera": "Conjunto de las hojas caídas de los árboles; también, cosa inútil y de poca sustancia.",
+          "falsas": [
+            "Mantilla de encaje fino.",
+            "Masa de hojaldre muy fina."
+          ],
+          "curiosidad": "Se dice de un discurso con mucha palabrería y poco contenido.",
+          "verificar": false
+        },
+        {
+          "palabra": "huero",
+          "categoria": "adjetivo",
+          "verdadera": "Vacío, vano, sin sustancia.",
+          "falsas": [
+            "Que no tiene padre ni madre.",
+            "Que tiene la cara llena de pecas."
+          ],
+          "curiosidad": "Un «huevo huero» es el que no tiene cría, aunque la gallina lo incube.",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "palabras": [
+        {
+          "palabra": "jerigonza",
+          "categoria": "sustantivo femenino",
+          "verdadera": "Lenguaje especial de algunos gremios; también, lenguaje difícil de entender.",
+          "falsas": [
+            "Canción de cuna andaluza.",
+            "Cuerda de esparto muy fina."
+          ],
+          "curiosidad": "Se relaciona con «jerga», y con el provenzal gergons.",
+          "verificar": false
+        },
+        {
+          "palabra": "ladino",
+          "categoria": "adjetivo",
+          "verdadera": "Astuto, sagaz, taimado.",
+          "falsas": [
+            "De pelo rubio y rizado.",
+            "Que viene de otra parte."
+          ],
+          "curiosidad": "Como sustantivo, es también la lengua de los judíos sefardíes.",
+          "verificar": false
+        },
+        {
+          "palabra": "lenguaraz",
+          "categoria": "adjetivo",
+          "verdadera": "Deslenguado, atrevido en el hablar.",
+          "falsas": [
+            "Que habla muchas lenguas.",
+            "Que tiene la lengua muy larga, como algunos animales."
+          ],
+          "curiosidad": "Viene de «lengua», con el sufijo «-araz».",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "palabras": [
+        {
+          "palabra": "macanudo",
+          "categoria": "adjetivo, coloquial",
+          "verdadera": "Bueno, magnífico, extraordinario.",
+          "falsas": [
+            "Que lleva macana o porra.",
+            "Que está cansado y triste."
+          ],
+          "curiosidad": "Es muy común en Argentina, Uruguay y Chile.",
+          "verificar": false
+        },
+        {
+          "palabra": "mamarracho",
+          "categoria": "sustantivo masculino, coloquial",
+          "verdadera": "Persona o cosa ridícula, extravagante o mal hecha.",
+          "falsas": [
+            "Niño que todavía mama.",
+            "Bolsa grande de cuero."
+          ],
+          "curiosidad": "De alguien mal vestido se dice que «va hecho un mamarracho».",
+          "verificar": false
+        },
+        {
+          "palabra": "mamotreto",
+          "categoria": "sustantivo masculino",
+          "verdadera": "Libro o legajo muy abultado; también, armatoste.",
+          "falsas": [
+            "Tren de mercancías muy lento.",
+            "Columpio de cuerda."
+          ],
+          "curiosidad": "En su origen era un libro de apuntes.",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "palabras": [
+        {
+          "palabra": "maula",
+          "categoria": "sustantivo femenino",
+          "verdadera": "Cosa inútil y despreciable; como adjetivo, persona tramposa o mala pagadora.",
+          "falsas": [
+            "Llanto de un gato.",
+            "Cuerda de las campanas."
+          ],
+          "curiosidad": "De alguien que no paga sus deudas se dice que es «un maula».",
+          "verificar": false
+        },
+        {
+          "palabra": "melindre",
+          "categoria": "sustantivo masculino",
+          "verdadera": "Delicadeza afectada en palabras, acciones y ademanes.",
+          "falsas": [
+            "Pequeño ramo de flores secas.",
+            "Pájaro cantor que imita otras voces."
+          ],
+          "curiosidad": "También es un dulce de miel y harina; en plural, «hacer melindres» es hacerse el remilgado.",
+          "verificar": false
+        },
+        {
+          "palabra": "mentecato",
+          "categoria": "adjetivo y sustantivo",
+          "verdadera": "Tonto, falto de juicio.",
+          "falsas": [
+            "Que miente con frecuencia.",
+            "Que se queja de todo."
+          ],
+          "curiosidad": "Viene del latín mente captus, 'privado de la mente'.",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "palabras": [
+        {
+          "palabra": "modorra",
+          "categoria": "sustantivo femenino",
+          "verdadera": "Somnolencia muy pesada.",
+          "falsas": [
+            "Grasa que cubre el riñón del cordero.",
+            "Muro bajo que separa dos huertos."
+          ],
+          "curiosidad": "Es la que entra tras una comida copiosa.",
+          "verificar": false
+        },
+        {
+          "palabra": "mondongo",
+          "categoria": "sustantivo masculino",
+          "verdadera": "Intestinos y panza de las reses, especialmente del cerdo.",
+          "falsas": [
+            "Montón de piedras en una encrucijada.",
+            "Persona de muy corta estatura."
+          ],
+          "curiosidad": "En muchos países de América, el mondongo es un guiso de callos.",
+          "verificar": false
+        },
+        {
+          "palabra": "mostrenco",
+          "categoria": "adjetivo",
+          "verdadera": "Dicho de un bien: que no tiene propietario conocido; dicho de una persona, ignorante o torpe.",
+          "falsas": [
+            "Que se muestra a todos.",
+            "Dicho de un vino: muy espeso."
+          ],
+          "curiosidad": "Los «bienes mostrencos» pasan al Estado.",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "palabras": [
+        {
+          "palabra": "murga",
+          "categoria": "sustantivo femenino",
+          "verdadera": "Compañía de músicos malos que tocan a las puertas; también, cosa pesada y molesta.",
+          "falsas": [
+            "Barro que queda tras una riada.",
+            "Cesto de mimbre para la pesca."
+          ],
+          "curiosidad": "«Dar la murga» es dar la lata. En el Carnaval de Canarias y de Montevideo, las murgas son agrupaciones muy queridas.",
+          "verificar": false
+        },
+        {
+          "palabra": "ñoño",
+          "categoria": "adjetivo",
+          "verdadera": "Excesivamente recatado o remilgado; también, soso, de poca sustancia.",
+          "falsas": [
+            "Que tiene la nariz chata.",
+            "Que llora con facilidad."
+          ],
+          "curiosidad": "Puede decirse de una persona o de una película.",
+          "verificar": false
+        },
+        {
+          "palabra": "pelagatos",
+          "categoria": "sustantivo masculino",
+          "verdadera": "Persona sin posición social o económica.",
+          "falsas": [
+            "Cazador de gatos monteses.",
+            "Cepillo para el pelo de los animales."
+          ],
+          "curiosidad": "Se dice con desprecio de alguien insignificante.",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "palabras": [
+        {
+          "palabra": "pendolista",
+          "categoria": "sustantivo común",
+          "verdadera": "Persona que escribe con buena letra.",
+          "falsas": [
+            "Persona que cuida de los relojes de péndulo.",
+            "Persona que lleva pendientes."
+          ],
+          "curiosidad": "Viene de «péndola», la pluma de escribir.",
+          "verificar": false
+        },
+        {
+          "palabra": "perifollo",
+          "categoria": "sustantivo masculino",
+          "verdadera": "Planta aromática; en plural, adornos excesivos y de mal gusto en el vestido.",
+          "falsas": [
+            "Peluca de los jueces.",
+            "Rizo de pelo sobre la frente."
+          ],
+          "curiosidad": "«Ir con todos los perifollos» es ir muy emperifollado.",
+          "verificar": false
+        },
+        {
+          "palabra": "piripi",
+          "categoria": "adjetivo, coloquial",
+          "verdadera": "Borracho, achispado.",
+          "falsas": [
+            "Que se pasa el día silbando.",
+            "Muy pequeño."
+          ],
+          "curiosidad": "Se dice de quien va alegre por haber bebido un poco.",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "palabras": [
+        {
+          "palabra": "pollino",
+          "categoria": "sustantivo masculino",
+          "verdadera": "Asno joven y cerril; también, persona simple o ignorante.",
+          "falsas": [
+            "Pollo recién salido del cascarón.",
+            "Tela de lana gruesa."
+          ],
+          "curiosidad": "Es la palabra de muchos refranes y cuentos populares.",
+          "verificar": false
+        },
+        {
+          "palabra": "pudibundo",
+          "categoria": "adjetivo",
+          "verdadera": "Que muestra o afecta un pudor exagerado.",
+          "falsas": [
+            "Que se pudre con facilidad.",
+            "Que se pone a sudar."
+          ],
+          "curiosidad": "Viene del latín pudibundus, de pudere, 'avergonzarse'.",
+          "verificar": false
+        },
+        {
+          "palabra": "rebotica",
+          "categoria": "sustantivo femenino",
+          "verdadera": "Pieza que está detrás de la principal de una botica.",
+          "falsas": [
+            "Segunda mitad de un partido de pelota.",
+            "Tos que vuelve después de curada."
+          ],
+          "curiosidad": "En las reboticas del siglo XIX se reunían tertulias de boticarios, médicos y curas.",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "palabras": [
+        {
+          "palabra": "rocín",
+          "categoria": "sustantivo masculino",
+          "verdadera": "Caballo de mala traza, basto y de poca alzada.",
+          "falsas": [
+            "Escoba de ramas de brezo.",
+            "Ropa interior de lana."
+          ],
+          "curiosidad": "El caballo de don Quijote se llama Rocinante: 'el que antes fue rocín'.",
+          "verificar": false
+        },
+        {
+          "palabra": "somanta",
+          "categoria": "sustantivo femenino, coloquial",
+          "verdadera": "Tunda, zurra.",
+          "falsas": [
+            "Manta de lana basta para las mulas.",
+            "Siesta muy larga."
+          ],
+          "curiosidad": "«Le dieron una somanta de palos».",
+          "verificar": false
+        },
+        {
+          "palabra": "tabarra",
+          "categoria": "sustantivo femenino",
+          "verdadera": "Molestia causada por algo pesado e insistente.",
+          "falsas": [
+            "Tabla para picar la carne.",
+            "Tabaco de mascar."
+          ],
+          "curiosidad": "«Dar la tabarra» es lo que hacen los niños pidiendo algo sin parar.",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "palabras": [
+        {
+          "palabra": "tarugo",
+          "categoria": "sustantivo masculino",
+          "verdadera": "Trozo de madera grueso y corto; también, persona de poco entendimiento.",
+          "falsas": [
+            "Pájaro carpintero.",
+            "Pan duro que se da a los perros."
+          ],
+          "curiosidad": "Como insulto, es sinónimo de «zoquete».",
+          "verificar": false
+        },
+        {
+          "palabra": "titiritero",
+          "categoria": "sustantivo masculino",
+          "verdadera": "Persona que maneja los títeres.",
+          "falsas": [
+            "Vendedor de telas en los mercados.",
+            "Persona que tiembla de frío."
+          ],
+          "curiosidad": "Por extensión, también se llama así al acróbata de feria.",
+          "verificar": false
+        },
+        {
+          "palabra": "trapacero",
+          "categoria": "adjetivo y sustantivo",
+          "verdadera": "Que con astucias, falsedades y mentiras procura engañar.",
+          "falsas": [
+            "Que vende trapos viejos.",
+            "Que trabaja en el puerto."
+          ],
+          "curiosidad": "Viene de «trapaza», 'engaño'.",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "palabras": [
+        {
+          "palabra": "trasgo",
+          "categoria": "sustantivo masculino",
+          "verdadera": "Duende, espíritu travieso.",
+          "falsas": [
+            "Último trago de una bebida.",
+            "Saco de tela para el grano."
+          ],
+          "curiosidad": "Es personaje de la mitología de Asturias, Cantabria y Galicia: hace travesuras en las casas de noche.",
+          "verificar": false
+        },
+        {
+          "palabra": "tunante",
+          "categoria": "adjetivo y sustantivo",
+          "verdadera": "Pícaro, bribón, taimado.",
+          "falsas": [
+            "Que toca en una tuna.",
+            "Que vive en una cueva."
+          ],
+          "curiosidad": "Viene de «tunar», 'andar vagando'.",
+          "verificar": false
+        },
+        {
+          "palabra": "vagido",
+          "categoria": "sustantivo masculino",
+          "verdadera": "Gemido o llanto del recién nacido.",
+          "falsas": [
+            "Hombre que anda sin oficio.",
+            "Viaje largo sin destino."
+          ],
+          "curiosidad": "Viene del latín vagitus.",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "palabras": [
+        {
+          "palabra": "zafarrancho",
+          "categoria": "sustantivo masculino",
+          "verdadera": "Acción de desembarazar una parte del barco para una faena; también, riña, destrozo.",
+          "falsas": [
+            "Rancho de pastores en la sierra.",
+            "Comida de carne con garbanzos."
+          ],
+          "curiosidad": "El «zafarrancho de combate» prepara el barco para la batalla; de ahí que se use para cualquier limpieza a fondo.",
+          "verificar": false
+        },
+        {
+          "palabra": "zaragüelles",
+          "categoria": "sustantivo masculino plural",
+          "verdadera": "Especie de calzones anchos que forman parte del traje regional de Valencia y Murcia.",
+          "falsas": [
+            "Dulces de almendra de Zaragoza.",
+            "Pájaros que cantan al amanecer."
+          ],
+          "curiosidad": "Viene del árabe sarāwīl, 'pantalones'.",
+          "verificar": false
+        },
+        {
+          "palabra": "zote",
+          "categoria": "adjetivo y sustantivo",
+          "verdadera": "Torpe y muy ignorante.",
+          "falsas": [
+            "Que habla con la zeta.",
+            "Pequeño pez de río."
+          ],
+          "curiosidad": "El padre Isla escribió la sátira «Fray Gerundio de Campazas, alias Zotes».",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "palabras": [
+        {
+          "palabra": "zahorí",
+          "categoria": "sustantivo común",
+          "verdadera": "Persona que pretende descubrir lo que está oculto, especialmente manantiales subterráneos.",
+          "falsas": [
+            "Pastor que cuida las cabras en la sierra.",
+            "Pájaro migratorio de color pardo."
+          ],
+          "curiosidad": "Los zahoríes buscan agua con una varilla de avellano en forma de horquilla.",
+          "verificar": false
+        },
+        {
+          "palabra": "zamarra",
+          "categoria": "sustantivo femenino",
+          "verdadera": "Prenda de abrigo hecha de piel con su lana o pelo.",
+          "falsas": [
+            "Bastón de los pastores.",
+            "Zarza de los caminos."
+          ],
+          "curiosidad": "Es la prenda típica de los pastores.",
+          "verificar": false
+        },
+        {
+          "palabra": "albur",
+          "categoria": "sustantivo masculino",
+          "verdadera": "Contingencia o azar al que se fía el resultado de algo.",
+          "falsas": [
+            "Amanecer.",
+            "Bebida de leche y almendra."
+          ],
+          "curiosidad": "«Al albur de» es 'a merced de'. En México, el albur es un juego de palabras de doble sentido.",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "palabras": [
+        {
+          "palabra": "ojeriza",
+          "categoria": "sustantivo femenino",
+          "verdadera": "Enojo y mala voluntad contra alguien.",
+          "falsas": [
+            "Mancha oscura bajo los ojos.",
+            "Mirada rápida y disimulada."
+          ],
+          "curiosidad": "«Tenerle ojeriza a alguien» es tenerle manía.",
+          "verificar": false
+        },
+        {
+          "palabra": "pamplina",
+          "categoria": "sustantivo femenino",
+          "verdadera": "Dicho o cosa sin sustancia, sin utilidad.",
+          "falsas": [
+            "Hoja de pan de oro.",
+            "Pastel de hojaldre de Pamplona."
+          ],
+          "curiosidad": "También es una planta, y la exclamación «¡pamplinas!» es tanto como 'tonterías'.",
+          "verificar": false
+        },
+        {
+          "palabra": "matasanos",
+          "categoria": "sustantivo masculino, coloquial",
+          "verdadera": "Curandero o mal médico.",
+          "falsas": [
+            "Insecticida antiguo.",
+            "Hierba venenosa de los campos."
+          ],
+          "curiosidad": "Es un insulto antiguo con mucha gracia: el que mata a los sanos.",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "palabras": [
+        {
+          "palabra": "chusma",
+          "categoria": "sustantivo femenino",
+          "verdadera": "Conjunto de gente soez.",
+          "falsas": [
+            "Fogata de ramas en las fiestas.",
+            "Masa de pan sin levadura."
+          ],
+          "curiosidad": "En origen era el conjunto de los galeotes que remaban en las galeras.",
+          "verificar": false
+        },
+        {
+          "palabra": "pazguato",
+          "categoria": "adjetivo y sustantivo",
+          "verdadera": "Simple, que se admira o se escandaliza de lo que ve u oye.",
+          "falsas": [
+            "Que tiene el paso torpe.",
+            "Que guarda la paz."
+          ],
+          "curiosidad": "Se dice de quien se queda pasmado por todo.",
+          "verificar": false
+        },
+        {
+          "palabra": "gandul",
+          "categoria": "adjetivo y sustantivo",
+          "verdadera": "Holgazán, tumbón.",
+          "falsas": [
+            "Que canta en las ferias.",
+            "Que es muy alto y delgado."
+          ],
+          "curiosidad": "Viene del árabe hispánico gandúr, 'pendenciero', 'truhán'.",
           "verificar": false
         }
       ]
