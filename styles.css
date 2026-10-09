@@ -574,7 +574,7 @@ main {
   align-content: center;
   gap: 1rem;
   background: var(--paper);
-  transition: opacity 0.4s ease, visibility 0.4s ease;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
 }
 #portada.oculta { opacity: 0; visibility: hidden; }
 
